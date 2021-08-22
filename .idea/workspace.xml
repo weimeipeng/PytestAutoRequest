@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c3de4e0-aaa6-4e88-b57a-600b0cfa9fd2" name="Changes" comment="" />
+    <list default="true" id="7c3de4e0-aaa6-4e88-b57a-600b0cfa9fd2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/api/api_News.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PytestAutoRequest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PytestAutoRequest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,17 +33,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/api" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\weipeng\Desktop\Myproject\PytestAutoRequest\api" />
       <recent name="C:\Users\tyl\Desktop\PytestAutoRequest\api" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="L:\Myprojects\PytestAutoRequest\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.run_main (1)">
+  <component name="RunManager" selected="Python.api_News">
     <configuration name="api_Music_service" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PytestAutoRequest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -51,6 +58,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api/api_Music_service.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="api_News" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PytestAutoRequest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api/api_News.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -93,27 +121,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/logger.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="read_save_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PytestAutoRequest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/read_save_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,15 +173,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.run_main (1)" />
+        <item itemvalue="Python.api_News" />
         <item itemvalue="Python.api_Music_service" />
+        <item itemvalue="Python.run_main (1)" />
         <item itemvalue="Python.http_requests" />
         <item itemvalue="Python.logger" />
-        <item itemvalue="Python.read_save_data" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -188,43 +195,21 @@
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state width="1344" height="192" key="GridCell.Tab.0.bottom" timestamp="1629623519853">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1344" height="192" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1629623519853" />
-    <state width="1344" height="192" key="GridCell.Tab.0.center" timestamp="1629623519852">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1344" height="192" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1629623519852" />
-    <state width="1344" height="192" key="GridCell.Tab.0.left" timestamp="1629623519852">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1344" height="192" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1629623519852" />
-    <state width="1344" height="192" key="GridCell.Tab.0.right" timestamp="1629623519853">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1344" height="192" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1629623519853" />
-    <state width="1344" height="180" key="GridCell.Tab.1.bottom" timestamp="1629623504642">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1344" height="180" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1629623504642" />
-    <state width="1344" height="180" key="GridCell.Tab.1.center" timestamp="1629623504641">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1344" height="180" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1629623504641" />
-    <state width="1344" height="180" key="GridCell.Tab.1.left" timestamp="1629623504641">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1344" height="180" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1629623504641" />
-    <state width="1344" height="180" key="GridCell.Tab.1.right" timestamp="1629623504641">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1344" height="180" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1629623504641" />
-    <state x="196" y="0" key="SettingsEditor" timestamp="1629625352354">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="196" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1629625352354" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -233,11 +218,6 @@
           <url>file://$PROJECT_DIR$/run_main.py</url>
           <line>4</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/case/test_service_info.py</url>
-          <line>23</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
