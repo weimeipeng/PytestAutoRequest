@@ -1,0 +1,10 @@
+home_service_list:
+  - [{'result_code': '0', 'result_message': '处理成功'}]
+service_info:
+  - ['','',{'result_code': '0', 'result_message': '处理成功'}]
+add_or_update_service:
+  - [['1','1','1','1','1','123456','1','测试','1','1','1','1','1','1'],{'result_code': '0', 'result_message': '处理成功'}]
+add_service_price:
+  - ['123456789','10','0','','0',{'result_code': '0', 'result_message': '处理成功'}]
+apply_service:
+  - ['','',{'result_code': '0', 'result_message': '处理成功'}]
