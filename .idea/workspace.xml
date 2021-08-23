@@ -1,12 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c3de4e0-aaa6-4e88-b57a-600b0cfa9fd2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api/api_News.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PytestAutoRequest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PytestAutoRequest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="7c3de4e0-aaa6-4e88-b57a-600b0cfa9fd2" name="Changes" comment="ss">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/api_News.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_News.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/test_service_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_service_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test_data/auth_service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/test_data/auth_service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/007ecdb4-e4bb-4571-b2cf-781c41b19068-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/14167a09-3bea-4bac-8e4a-6895defdf5cf-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/1479e5d6-7fbc-4b00-ad87-abdf38f89880-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/15388246-cee0-4b76-91e7-e0157954cfc8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/1958c143-ca4a-4d97-b10c-2abdb62a9272-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/1f767a85-4b2d-43de-8b27-2bf5a1ad40f3-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/24043df6-fdd4-4033-9e4d-1dea49917e06-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/4a4fda94-b7be-4cb5-8f5a-1f203963d838-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/4bde103e-e49a-4c00-b109-bcc241c6a952-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/5081fc0f-91bc-4c7b-82d2-6f140839e67a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/5a7b6037-1297-48a1-b892-e7cc992663bc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/6b090a31-f41e-406c-842b-688a210bbb6e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/7131ad13-240f-4027-95ad-2e4ec0a2335d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/79da7d11-1d21-4f19-bab4-f3359320519f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/7ae87ec8-889d-49b6-89e0-b01f6557b69d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/7cf5f82e-0dce-4a9d-95b0-a581dc3f3c86-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/7d9c4af5-e6d9-403e-ba0b-bdc8874674e3-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/7fa0a930-c609-4e2a-a06b-1e3510c1e59c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/82e66238-2f87-41c7-9117-6e5f17b745dc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/8321ce31-716d-4f93-8a7f-ba58e61214e8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/87afc1e5-d655-455c-bb06-c733512a14ac-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/87fbcb84-e63b-4e79-94aa-d94346cec3b5-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/9240a13d-24c4-460a-a534-e5a3d31375ba-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/93829bb6-58f2-4c76-96d0-cdbe2752a23a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/9f440e65-d042-48f1-a7fb-e5e215d3c5f7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/a4b66b58-dc5a-4eda-8a5e-de82cf2ea179-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/a69bcaa8-4221-416c-b834-10be25e38e4b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/a71bf20d-70d1-4b47-931f-e89cde4e7b27-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/a98da66f-b61e-4848-9dd5-231f72e4785e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/ac32a45a-da7f-4024-b46e-88e5e577e028-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/acd15a3f-c55d-4e3c-aa0f-35d389755021-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/b951b639-b026-409f-86fe-40b9f8d22f60-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/c9dfd6ae-7574-4528-85d0-251992954ad4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/cd6f0ed1-f00d-47ce-a0d4-0791a9b0aea7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/d2a2b773-0a7a-4c7a-9653-5caff7d368fc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/eda3b899-3222-47e5-b9f6-e6596b3e1591-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +59,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1x2UFk55q2bwdMQG5prNgisbCL0" />
@@ -44,7 +88,7 @@
       <recent name="L:\Myprojects\PytestAutoRequest\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.api_News">
+  <component name="RunManager" selected="Python.run_main (1)">
     <configuration name="api_Music_service" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PytestAutoRequest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -108,27 +152,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="logger" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PytestAutoRequest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/logger.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="run_main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PytestAutoRequest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,13 +194,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_service_info.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PytestAutoRequest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/test_service_info.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.run_main (1)" />
+        <item itemvalue="Python tests.Python tests in test_service_info.py" />
         <item itemvalue="Python.api_News" />
         <item itemvalue="Python.api_Music_service" />
-        <item itemvalue="Python.run_main (1)" />
         <item itemvalue="Python.http_requests" />
-        <item itemvalue="Python.logger" />
       </list>
     </recent_temporary>
   </component>
@@ -193,6 +230,14 @@
       <option name="presentableId" value="Default" />
       <updated>1629552575110</updated>
     </task>
+    <task id="LOCAL-00001" summary="ss">
+      <created>1629641199321</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1629641199321</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,21 +250,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/run_main.py</url>
-          <line>4</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="ss" />
+    <option name="LAST_COMMIT_MESSAGE" value="ss" />
   </component>
 </project>

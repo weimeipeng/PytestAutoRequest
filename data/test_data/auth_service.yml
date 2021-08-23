@@ -8,3 +8,4 @@ add_service_price:
   - ['123456789','10','0','','0',{'result_code': '0', 'result_message': '处理成功'}]
 apply_service:
   - ['','',{'result_code': '0', 'result_message': '处理成功'}]
+weather: [{"reason":"查询成功!","error_code":0}]
