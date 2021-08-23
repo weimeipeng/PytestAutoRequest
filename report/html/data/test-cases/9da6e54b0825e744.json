@@ -1,0 +1,169 @@
+{
+  "uid" : "9da6e54b0825e744",
+  "name" : "test_service_info[服务详情]",
+  "fullName" : "case.test_service_info.Test_Service_Info#test_service_info",
+  "historyId" : "1a8b192db1d5dd749ffa0d2ba9937d72",
+  "time" : {
+    "start" : 1629728046701,
+    "stop" : 1629728046823,
+    "duration" : 122
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1629728046700,
+      "stop" : 1629728046700,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1629728046368,
+      "stop" : 1629728046700,
+      "duration" : 332
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "host",
+    "time" : {
+      "start" : 1629728046700,
+      "stop" : 1629728046700,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1629728046700,
+      "stop" : 1629728046700,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取热门新闻",
+      "time" : {
+        "start" : 1629728046703,
+        "stop" : 1629728046771,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "城市天气详情",
+      "time" : {
+        "start" : 1629728046771,
+        "stop" : 1629728046822,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "939392a147254f8c",
+      "name" : "log",
+      "source" : "939392a147254f8c.txt",
+      "type" : "text/plain",
+      "size" : 5083
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "服务详情"
+  }, {
+    "name" : "tag",
+    "value" : "process"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_service_info"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Service_Info"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9PO3806"
+  }, {
+    "name" : "thread",
+    "value" : "14324-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_service_info"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect",
+    "value" : "{'reason': '查询成功!', 'error_code': 0}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "process" ]
+  },
+  "source" : "9da6e54b0825e744.json",
+  "parameterValues" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
+}

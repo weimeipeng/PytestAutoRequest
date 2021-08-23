@@ -1,0 +1,60 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-9PO3806",
+    "children" : [ {
+      "name" : "3028-MainThread",
+      "children" : [ {
+        "name" : "test_service_info[服务详情]",
+        "uid" : "d953ea6249c19ae9",
+        "parentUid" : "1e8fb9b7f10a03047cc33fd3de6200f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629728070960,
+          "stop" : 1629728071091,
+          "duration" : 131
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
+      } ],
+      "uid" : "1e8fb9b7f10a03047cc33fd3de6200f9"
+    }, {
+      "name" : "14324-MainThread",
+      "children" : [ {
+        "name" : "test_service_info[服务详情]",
+        "uid" : "9da6e54b0825e744",
+        "parentUid" : "0bd7305b0caa9dd2b378a120b065008c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629728046701,
+          "stop" : 1629728046823,
+          "duration" : 122
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
+      } ],
+      "uid" : "0bd7305b0caa9dd2b378a120b065008c"
+    }, {
+      "name" : "16692-MainThread",
+      "children" : [ {
+        "name" : "test_service_info[服务详情]",
+        "uid" : "6053b1b9c334d187",
+        "parentUid" : "29ff27cedceaea1bfbe3ac65c8f10507",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629728582068,
+          "stop" : 1629728582214,
+          "duration" : 146
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
+      } ],
+      "uid" : "29ff27cedceaea1bfbe3ac65c8f10507"
+    } ],
+    "uid" : "8d6aea4551548a314299e24492556fb2"
+  } ]
+}

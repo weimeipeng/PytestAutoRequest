@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "服务详情",
+    "children" : [ {
+      "name" : "test_service_info[服务详情]",
+      "uid" : "6053b1b9c334d187",
+      "parentUid" : "0e44372f753e56f2028403d2d7756216",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629728582068,
+        "stop" : 1629728582214,
+        "duration" : 146
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
+    } ],
+    "uid" : "0e44372f753e56f2028403d2d7756216"
+  } ]
+}
