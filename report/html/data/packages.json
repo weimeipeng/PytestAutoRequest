@@ -2,21 +2,133 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "case.test_service_info",
+    "name" : "case",
     "children" : [ {
-      "name" : "test_service_info[服务详情]",
-      "uid" : "6053b1b9c334d187",
-      "parentUid" : "20043f74f481add5ae73da3189476759",
-      "status" : "passed",
-      "time" : {
-        "start" : 1629728582068,
-        "stop" : 1629728582214,
-        "duration" : 146
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
+      "name" : "test_content_info",
+      "children" : [ {
+        "name" : "test_service_info[获取笑话大全接口测试]",
+        "uid" : "845ed1fc2f991e58",
+        "parentUid" : "fbb37b4ef359a2718d06d2d95a5dd92b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629817620615,
+          "stop" : 1629817620615,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[['desc', '1418816972', {'reason': 'Success', 'result': 'content', 'error_code': 0}], ['desc', '', {'reason': '必须为10位时间戳或时间范围错误', 'result': 'None', 'error_code': 209501}]]" ]
+      }, {
+        "name" : "test_service_info[你好]",
+        "uid" : "3ac2b6d84f929956",
+        "parentUid" : "fbb37b4ef359a2718d06d2d95a5dd92b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629818026113,
+          "stop" : 1629818026113,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'你好'" ]
+      }, {
+        "name" : "test_service_info[他好]",
+        "uid" : "11309f916a16bb60",
+        "parentUid" : "fbb37b4ef359a2718d06d2d95a5dd92b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629818026129,
+          "stop" : 1629818026129,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'他好'" ]
+      }, {
+        "name" : "test_service_info[我也好]",
+        "uid" : "f61207450c636997",
+        "parentUid" : "fbb37b4ef359a2718d06d2d95a5dd92b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629818026135,
+          "stop" : 1629818026135,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'我也好'" ]
+      }, {
+        "name" : "test_service_info[expect0]",
+        "uid" : "10fed3a3e187034c",
+        "parentUid" : "fbb37b4ef359a2718d06d2d95a5dd92b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629818141828,
+          "stop" : 1629818141828,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['desc', '1418816972', {'reason': 'Success', 'result': 'content', 'error_code': 0}]" ]
+      }, {
+        "name" : "test_service_info[expect1]",
+        "uid" : "c6f437c08d47cba5",
+        "parentUid" : "fbb37b4ef359a2718d06d2d95a5dd92b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629818141843,
+          "stop" : 1629818141843,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['desc', '', {'reason': '必须为10位时间戳或时间范围错误', 'result': 'None', 'error_code': 209501}]" ]
+      }, {
+        "name" : "test_service_info[desc-1418816972-expect0]",
+        "uid" : "5ac7d71e613d5e0b",
+        "parentUid" : "fbb37b4ef359a2718d06d2d95a5dd92b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629818235502,
+          "stop" : 1629818235613,
+          "duration" : 111
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "'desc'", "'1418816972'" ]
+      }, {
+        "name" : "test_service_info[desc--expect1]",
+        "uid" : "8521137db888743f",
+        "parentUid" : "fbb37b4ef359a2718d06d2d95a5dd92b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629818235613,
+          "stop" : 1629818235660,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': '必须为10位时间戳或时间范围错误', 'result': 'None', 'error_code': 209501}", "'desc'", "''" ]
+      } ],
+      "uid" : "fbb37b4ef359a2718d06d2d95a5dd92b"
+    }, {
+      "name" : "test_service_info",
+      "children" : [ {
+        "name" : "test_service_info[服务详情]",
+        "uid" : "c2fc0eb2fbccf303",
+        "parentUid" : "20043f74f481add5ae73da3189476759",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629818235660,
+          "stop" : 1629818235753,
+          "duration" : 93
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
+      } ],
+      "uid" : "20043f74f481add5ae73da3189476759"
     } ],
-    "uid" : "case.test_service_info"
+    "uid" : "3a5ff917f72cbd03b2a2ff2549394ef0"
   } ]
 }

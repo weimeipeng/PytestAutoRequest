@@ -2,49 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c3de4e0-aaa6-4e88-b57a-600b0cfa9fd2" name="Changes" comment="ss">
+      <change afterPath="$PROJECT_DIR$/api/api_content.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case/test_content_info.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/api_News.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_News.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/case/test_service_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_service_info.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/test_data/auth_service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/test_data/auth_service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/html/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/007ecdb4-e4bb-4571-b2cf-781c41b19068-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/14167a09-3bea-4bac-8e4a-6895defdf5cf-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/1479e5d6-7fbc-4b00-ad87-abdf38f89880-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/15388246-cee0-4b76-91e7-e0157954cfc8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/1958c143-ca4a-4d97-b10c-2abdb62a9272-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/1f767a85-4b2d-43de-8b27-2bf5a1ad40f3-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/24043df6-fdd4-4033-9e4d-1dea49917e06-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/4a4fda94-b7be-4cb5-8f5a-1f203963d838-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/4bde103e-e49a-4c00-b109-bcc241c6a952-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/5081fc0f-91bc-4c7b-82d2-6f140839e67a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/5a7b6037-1297-48a1-b892-e7cc992663bc-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/6b090a31-f41e-406c-842b-688a210bbb6e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/7131ad13-240f-4027-95ad-2e4ec0a2335d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/79da7d11-1d21-4f19-bab4-f3359320519f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/7ae87ec8-889d-49b6-89e0-b01f6557b69d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/7cf5f82e-0dce-4a9d-95b0-a581dc3f3c86-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/7d9c4af5-e6d9-403e-ba0b-bdc8874674e3-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/7fa0a930-c609-4e2a-a06b-1e3510c1e59c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/82e66238-2f87-41c7-9117-6e5f17b745dc-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/8321ce31-716d-4f93-8a7f-ba58e61214e8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/87afc1e5-d655-455c-bb06-c733512a14ac-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/87fbcb84-e63b-4e79-94aa-d94346cec3b5-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/9240a13d-24c4-460a-a534-e5a3d31375ba-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/93829bb6-58f2-4c76-96d0-cdbe2752a23a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/9f440e65-d042-48f1-a7fb-e5e215d3c5f7-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/a4b66b58-dc5a-4eda-8a5e-de82cf2ea179-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/a69bcaa8-4221-416c-b834-10be25e38e4b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/a71bf20d-70d1-4b47-931f-e89cde4e7b27-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/a98da66f-b61e-4848-9dd5-231f72e4785e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/ac32a45a-da7f-4024-b46e-88e5e577e028-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/acd15a3f-c55d-4e3c-aa0f-35d389755021-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/b951b639-b026-409f-86fe-40b9f8d22f60-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/c9dfd6ae-7574-4528-85d0-251992954ad4-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/cd6f0ed1-f00d-47ce-a0d4-0791a9b0aea7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/d2a2b773-0a7a-4c7a-9653-5caff7d368fc-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/tmp/eda3b899-3222-47e5-b9f6-e6596b3e1591-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/939392a147254f8c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/9cdbd68e9e8b1ef2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/dca3c9badf82c792.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/data/behaviors.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/data/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/data/packages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/data/suites.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/data/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/test-cases/6053b1b9c334d187.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/test-cases/9da6e54b0825e744.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/test-cases/d953ea6249c19ae9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/data/timeline.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/export/influxDbData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/export/prometheusData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/history/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/history/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/history/history.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/history/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/widgets/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/widgets/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/widgets/duration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/widgets/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/widgets/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/widgets/severity.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/widgets/status-chart.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/widgets/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/widgets/summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/0721ed8d-133a-42c8-9377-7901989aac08-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/083171af-2690-443e-9e66-d73bc2bdcbbd-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/24c44026-b51e-4ac0-abef-0430629f8561-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/37c5d7d0-d21b-4315-ae9b-f563e344c0f5-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/3bb29174-fa2a-4b30-b38d-c41734204a39-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/565c99c4-2686-491e-912e-f030f2768c21-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/5d880f4b-ed0e-47b3-861b-ba8f151b203c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/62d7f427-ebf4-4f0a-8884-68e00ffb54b2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/6ac110fe-5a2a-493e-bc56-2f593f3525df-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/7214c555-8481-47e1-a978-b755d40f69fc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/82c215be-f033-430a-8633-750967792f1b-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/887a3396-e5be-4aba-85a1-b17e59f0f8ed-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/8a3e82cd-6078-4dc2-8e36-5d17564ece2e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/991ad7d0-4292-434a-b561-b47edc315094-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/99523fec-1215-4ac5-afe8-7c34767b8932-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/abd9339c-9075-4348-8c0c-1a66bb9cb230-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/c077677e-c2cb-467a-a8c6-d8a0a0351681-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/cfa42592-b07a-4b1a-8605-b49461fbdedf-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/ea591ba0-d605-459d-9142-5c654bbf6c89-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/eb1c90f9-3acb-409d-b465-c9ccd8d18a68-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/fb527319-685b-4e26-979e-c19922dc174b-container.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +78,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1x2UFk55q2bwdMQG5prNgisbCL0" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -88,28 +100,7 @@
       <recent name="L:\Myprojects\PytestAutoRequest\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.run_main (1)">
-    <configuration name="api_Music_service" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PytestAutoRequest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api/api_Music_service.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.run_main">
     <configuration name="api_News" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PytestAutoRequest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -131,7 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="http_requests" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="api_content" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PytestAutoRequest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,11 +130,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/http_requests.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api/api_content.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,6 +185,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_content_info.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PytestAutoRequest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/test_content_info.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests in test_service_info.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PytestAutoRequest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -210,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.api_content" />
+        <item itemvalue="Python tests.Python tests in test_content_info.py" />
+        <item itemvalue="Python.api_News" />
         <item itemvalue="Python.run_main (1)" />
         <item itemvalue="Python tests.Python tests in test_service_info.py" />
-        <item itemvalue="Python.api_News" />
-        <item itemvalue="Python.api_Music_service" />
-        <item itemvalue="Python.http_requests" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629641199321</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ss">
+      <created>1629729116609</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1629729116609</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

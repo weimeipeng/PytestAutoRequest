@@ -9,3 +9,6 @@ add_service_price:
 apply_service:
   - ['','',{'result_code': '0', 'result_message': '处理成功'}]
 weather: [{"reason":"查询成功!","error_code":0}]
+
+xiaohua: [['desc','1418816972',{'reason': 'Success', 'result':'content','error_code': 0}],
+           ['desc','',{'reason': '必须为10位时间戳或时间范围错误', 'result': None, 'error_code': 209501}]]
