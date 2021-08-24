@@ -17,4 +17,4 @@ class Api_Content_Service(object):
 
 
 if __name__ == '__main__':
-    print(Api_Content_Service().get_xiaohua('desc').json())
+    print(Api_Content_Service().get_xiaohua(time='1418816972').json())

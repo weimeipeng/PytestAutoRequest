@@ -5,7 +5,7 @@
     "name" : "服务详情",
     "children" : [ {
       "name" : "test_service_info[获取笑话大全接口测试]",
-      "uid" : "845ed1fc2f991e58",
+      "uid" : "9018d8a82ab2771d",
       "parentUid" : "0e44372f753e56f2028403d2d7756216",
       "status" : "passed",
       "time" : {
@@ -18,7 +18,7 @@
       "parameters" : [ "[['desc', '1418816972', {'reason': 'Success', 'result': 'content', 'error_code': 0}], ['desc', '', {'reason': '必须为10位时间戳或时间范围错误', 'result': 'None', 'error_code': 209501}]]" ]
     }, {
       "name" : "test_service_info[你好]",
-      "uid" : "3ac2b6d84f929956",
+      "uid" : "62552499019971c9",
       "parentUid" : "0e44372f753e56f2028403d2d7756216",
       "status" : "passed",
       "time" : {
@@ -31,7 +31,7 @@
       "parameters" : [ "'你好'" ]
     }, {
       "name" : "test_service_info[他好]",
-      "uid" : "11309f916a16bb60",
+      "uid" : "6952daf711f2223a",
       "parentUid" : "0e44372f753e56f2028403d2d7756216",
       "status" : "passed",
       "time" : {
@@ -44,7 +44,7 @@
       "parameters" : [ "'他好'" ]
     }, {
       "name" : "test_service_info[我也好]",
-      "uid" : "f61207450c636997",
+      "uid" : "6ab942e6b87f5dc8",
       "parentUid" : "0e44372f753e56f2028403d2d7756216",
       "status" : "passed",
       "time" : {
@@ -57,7 +57,7 @@
       "parameters" : [ "'我也好'" ]
     }, {
       "name" : "test_service_info[expect0]",
-      "uid" : "10fed3a3e187034c",
+      "uid" : "5c06b40d0b1d4e5a",
       "parentUid" : "0e44372f753e56f2028403d2d7756216",
       "status" : "passed",
       "time" : {
@@ -70,7 +70,7 @@
       "parameters" : [ "['desc', '1418816972', {'reason': 'Success', 'result': 'content', 'error_code': 0}]" ]
     }, {
       "name" : "test_service_info[expect1]",
-      "uid" : "c6f437c08d47cba5",
+      "uid" : "3e5706731e9a2af8",
       "parentUid" : "0e44372f753e56f2028403d2d7756216",
       "status" : "passed",
       "time" : {
@@ -83,39 +83,52 @@
       "parameters" : [ "['desc', '', {'reason': '必须为10位时间戳或时间范围错误', 'result': 'None', 'error_code': 209501}]" ]
     }, {
       "name" : "test_service_info[desc-1418816972-expect0]",
-      "uid" : "5ac7d71e613d5e0b",
+      "uid" : "a03bed85b1bb8b82",
       "parentUid" : "0e44372f753e56f2028403d2d7756216",
       "status" : "passed",
       "time" : {
-        "start" : 1629818235502,
-        "stop" : 1629818235613,
-        "duration" : 111
+        "start" : 1629818594535,
+        "stop" : 1629818594660,
+        "duration" : 125
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "'desc'", "'1418816972'" ]
     }, {
       "name" : "test_service_info[desc--expect1]",
-      "uid" : "8521137db888743f",
+      "uid" : "606b9c1a354ffefe",
       "parentUid" : "0e44372f753e56f2028403d2d7756216",
       "status" : "passed",
       "time" : {
-        "start" : 1629818235613,
-        "stop" : 1629818235660,
+        "start" : 1629818594675,
+        "stop" : 1629818594722,
         "duration" : 47
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "{'reason': '必须为10位时间戳或时间范围错误', 'result': 'None', 'error_code': 209501}", "'desc'", "''" ]
     }, {
-      "name" : "test_service_info[服务详情]",
-      "uid" : "c2fc0eb2fbccf303",
+      "name" : "test_service_info[-1418816972-expect2]",
+      "uid" : "1e935bc88734c620",
       "parentUid" : "0e44372f753e56f2028403d2d7756216",
       "status" : "passed",
       "time" : {
-        "start" : 1629818235660,
-        "stop" : 1629818235753,
-        "duration" : 93
+        "start" : 1629818594738,
+        "stop" : 1629818594816,
+        "duration" : 78
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "''", "'1418816972'" ]
+    }, {
+      "name" : "test_service_info[服务详情]",
+      "uid" : "61a290461c17dc5a",
+      "parentUid" : "0e44372f753e56f2028403d2d7756216",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629818594816,
+        "stop" : 1629818594941,
+        "duration" : 125
       },
       "flaky" : false,
       "newFailed" : false,

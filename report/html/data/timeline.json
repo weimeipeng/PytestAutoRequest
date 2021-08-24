@@ -4,285 +4,23 @@
   "children" : [ {
     "name" : "DESKTOP-9PO3806",
     "children" : [ {
-      "name" : "13224-MainThread",
+      "name" : "18204-MainThread",
       "children" : [ {
-        "name" : "test_service_info[服务详情]",
-        "uid" : "2bba2ba5b66d29fc",
-        "parentUid" : "de79444aaa10b4420293b83f3217bd93",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629818081973,
-          "stop" : 1629818082083,
-          "duration" : 110
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
-      }, {
-        "name" : "test_service_info[expect0]",
-        "uid" : "1e651525a34d384c",
-        "parentUid" : "de79444aaa10b4420293b83f3217bd93",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629818081958,
-          "stop" : 1629818081958,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "[['desc', '1418816972', {'reason': 'Success', 'result': 'content', 'error_code': 0}], ['desc', '', {'reason': '必须为10位时间戳或时间范围错误', 'result': 'None', 'error_code': 209501}]]" ]
-      } ],
-      "uid" : "de79444aaa10b4420293b83f3217bd93"
-    }, {
-      "name" : "764-MainThread",
-      "children" : [ {
-        "name" : "test_service_info[服务详情]",
-        "uid" : "5cb40257e8da836f",
-        "parentUid" : "625b94d0293da3945aa5fd5c8d61aaff",
-        "status" : "failed",
-        "time" : {
-          "start" : 1629817620615,
-          "stop" : 1629817620849,
-          "duration" : 234
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
-      }, {
-        "name" : "test_service_info[获取笑话大全接口测试]",
-        "uid" : "845ed1fc2f991e58",
-        "parentUid" : "625b94d0293da3945aa5fd5c8d61aaff",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629817620615,
-          "stop" : 1629817620615,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "[['desc', '1418816972', {'reason': 'Success', 'result': 'content', 'error_code': 0}], ['desc', '', {'reason': '必须为10位时间戳或时间范围错误', 'result': 'None', 'error_code': 209501}]]" ]
-      } ],
-      "uid" : "625b94d0293da3945aa5fd5c8d61aaff"
-    }, {
-      "name" : "12932-MainThread",
-      "children" : [ {
-        "name" : "test_service_info[你好]",
-        "uid" : "6b9c026a06a8c14b",
-        "parentUid" : "aa08165798d7611f5c65079f672b4c92",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629818016755,
-          "stop" : 1629818016755,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'你好'" ]
-      }, {
-        "name" : "test_service_info[我也好]",
-        "uid" : "ca398c9d168b05e6",
-        "parentUid" : "aa08165798d7611f5c65079f672b4c92",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629818016755,
-          "stop" : 1629818016755,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'我也好'" ]
-      }, {
-        "name" : "test_service_info[服务详情]",
-        "uid" : "ea0035152ad9a0c2",
-        "parentUid" : "aa08165798d7611f5c65079f672b4c92",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629818016770,
-          "stop" : 1629818016911,
-          "duration" : 141
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
-      }, {
         "name" : "test_service_info[他好]",
-        "uid" : "cee4bc8665cb9f75",
-        "parentUid" : "aa08165798d7611f5c65079f672b4c92",
+        "uid" : "6952daf711f2223a",
+        "parentUid" : "da75fadcc00f93c9807f7745699ebea0",
         "status" : "passed",
         "time" : {
-          "start" : 1629818016755,
-          "stop" : 1629818016755,
+          "start" : 1629818026129,
+          "stop" : 1629818026129,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'他好'" ]
-      } ],
-      "uid" : "aa08165798d7611f5c65079f672b4c92"
-    }, {
-      "name" : "11836-MainThread",
-      "children" : [ {
-        "name" : "test_service_info[服务详情]",
-        "uid" : "8bfcb189bd1e04f1",
-        "parentUid" : "fe042ef0c247dd7b9928e88a89baffa5",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629816229628,
-          "stop" : 1629816229784,
-          "duration" : 156
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
-      }, {
-        "name" : "test_service_info[获取笑话大全接口测试]",
-        "uid" : "1fb8f897601f9311",
-        "parentUid" : "fe042ef0c247dd7b9928e88a89baffa5",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629816229628,
-          "stop" : 1629816229628,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "'desc'", "'1418816972'" ]
-      } ],
-      "uid" : "fe042ef0c247dd7b9928e88a89baffa5"
-    }, {
-      "name" : "10100-MainThread",
-      "children" : [ {
-        "name" : "test_service_info[服务详情]",
-        "uid" : "f64211449e70acd1",
-        "parentUid" : "78284fca710886cedd3c11c80a816e4f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629814333916,
-          "stop" : 1629814334023,
-          "duration" : 107
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
-      }, {
-        "name" : "test_service_info[获取笑话大全接口测试]",
-        "uid" : "7f61ac93c7ff69ae",
-        "parentUid" : "78284fca710886cedd3c11c80a816e4f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629814333784,
-          "stop" : 1629814333901,
-          "duration" : 117
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}" ]
-      } ],
-      "uid" : "78284fca710886cedd3c11c80a816e4f"
-    }, {
-      "name" : "12096-MainThread",
-      "children" : [ {
-        "name" : "test_service_info[desc-1418816972-expect0]",
-        "uid" : "5ac7d71e613d5e0b",
-        "parentUid" : "ce6bf3ed2a401a5b940f68929ec393a6",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629818235502,
-          "stop" : 1629818235613,
-          "duration" : 111
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "'desc'", "'1418816972'" ]
-      }, {
-        "name" : "test_service_info[desc--expect1]",
-        "uid" : "8521137db888743f",
-        "parentUid" : "ce6bf3ed2a401a5b940f68929ec393a6",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629818235613,
-          "stop" : 1629818235660,
-          "duration" : 47
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'reason': '必须为10位时间戳或时间范围错误', 'result': 'None', 'error_code': 209501}", "'desc'", "''" ]
-      }, {
-        "name" : "test_service_info[服务详情]",
-        "uid" : "c2fc0eb2fbccf303",
-        "parentUid" : "ce6bf3ed2a401a5b940f68929ec393a6",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629818235660,
-          "stop" : 1629818235753,
-          "duration" : 93
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
-      } ],
-      "uid" : "ce6bf3ed2a401a5b940f68929ec393a6"
-    }, {
-      "name" : "4304-MainThread",
-      "children" : [ {
-        "name" : "test_service_info[获取笑话大全接口测试]",
-        "uid" : "ec24d2ad1c025eda",
-        "parentUid" : "472ac0b35cdb88fb4443d2b1c12976d0",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629816885963,
-          "stop" : 1629816885963,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "['desc', '1418816972', {'reason': 'Success', 'result': 'content', 'error_code': 0}]" ]
-      }, {
-        "name" : "test_service_info[服务详情]",
-        "uid" : "db4f5ee1af42995",
-        "parentUid" : "472ac0b35cdb88fb4443d2b1c12976d0",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629816885963,
-          "stop" : 1629816886119,
-          "duration" : 156
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
-      } ],
-      "uid" : "472ac0b35cdb88fb4443d2b1c12976d0"
-    }, {
-      "name" : "18204-MainThread",
-      "children" : [ {
-        "name" : "test_service_info[服务详情]",
-        "uid" : "c5261163e447c6d0",
-        "parentUid" : "da75fadcc00f93c9807f7745699ebea0",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629818026140,
-          "stop" : 1629818026251,
-          "duration" : 111
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
-      }, {
-        "name" : "test_service_info[我也好]",
-        "uid" : "f61207450c636997",
-        "parentUid" : "da75fadcc00f93c9807f7745699ebea0",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629818026135,
-          "stop" : 1629818026135,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'我也好'" ]
       }, {
         "name" : "test_service_info[你好]",
-        "uid" : "3ac2b6d84f929956",
+        "uid" : "62552499019971c9",
         "parentUid" : "da75fadcc00f93c9807f7745699ebea0",
         "status" : "passed",
         "time" : {
@@ -294,68 +32,38 @@
         "newFailed" : false,
         "parameters" : [ "'你好'" ]
       }, {
-        "name" : "test_service_info[他好]",
-        "uid" : "11309f916a16bb60",
+        "name" : "test_service_info[我也好]",
+        "uid" : "6ab942e6b87f5dc8",
         "parentUid" : "da75fadcc00f93c9807f7745699ebea0",
         "status" : "passed",
         "time" : {
-          "start" : 1629818026129,
-          "stop" : 1629818026129,
+          "start" : 1629818026135,
+          "stop" : 1629818026135,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'他好'" ]
-      } ],
-      "uid" : "da75fadcc00f93c9807f7745699ebea0"
-    }, {
-      "name" : "6856-MainThread",
-      "children" : [ {
-        "name" : "test_service_info[expect1]",
-        "uid" : "c6f437c08d47cba5",
-        "parentUid" : "29b67c152febaa064c6505a282109852",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629818141843,
-          "stop" : 1629818141843,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "['desc', '', {'reason': '必须为10位时间戳或时间范围错误', 'result': 'None', 'error_code': 209501}]" ]
+        "parameters" : [ "'我也好'" ]
       }, {
         "name" : "test_service_info[服务详情]",
-        "uid" : "2e2c85c10a467f84",
-        "parentUid" : "29b67c152febaa064c6505a282109852",
+        "uid" : "85be864b90f4f79",
+        "parentUid" : "da75fadcc00f93c9807f7745699ebea0",
         "status" : "passed",
         "time" : {
-          "start" : 1629818141843,
-          "stop" : 1629818141984,
-          "duration" : 141
+          "start" : 1629818026140,
+          "stop" : 1629818026251,
+          "duration" : 111
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
-      }, {
-        "name" : "test_service_info[expect0]",
-        "uid" : "10fed3a3e187034c",
-        "parentUid" : "29b67c152febaa064c6505a282109852",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629818141828,
-          "stop" : 1629818141828,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "['desc', '1418816972', {'reason': 'Success', 'result': 'content', 'error_code': 0}]" ]
       } ],
-      "uid" : "29b67c152febaa064c6505a282109852"
+      "uid" : "da75fadcc00f93c9807f7745699ebea0"
     }, {
       "name" : "18096-MainThread",
       "children" : [ {
         "name" : "test_service_info[服务详情]",
-        "uid" : "e0748b12f578cc36",
+        "uid" : "713b3f62a83784ea",
         "parentUid" : "3ad0657ba5cc53addfde5266f9dbad25",
         "status" : "passed",
         "time" : {
@@ -368,7 +76,7 @@
         "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
       }, {
         "name" : "test_service_info[获取笑话大全接口测试]",
-        "uid" : "f906f6f4a7d5f8dc",
+        "uid" : "37b459b6d25a2d76",
         "parentUid" : "3ad0657ba5cc53addfde5266f9dbad25",
         "status" : "passed",
         "time" : {
@@ -385,7 +93,7 @@
       "name" : "16460-MainThread",
       "children" : [ {
         "name" : "test_service_info[desc--expect1]",
-        "uid" : "719599fb4de9a19e",
+        "uid" : "ce53adf9ac59d8b3",
         "parentUid" : "c969249442d1f9219f4a47affd179d2d",
         "status" : "passed",
         "time" : {
@@ -398,7 +106,7 @@
         "parameters" : [ "{'reason': '必须为10位时间戳或时间范围错误', 'result': 'None', 'error_code': 209501}", "'desc'", "''" ]
       }, {
         "name" : "test_service_info[desc-1418816972-expect0]",
-        "uid" : "4ecbe4d19c4a145d",
+        "uid" : "6e6cc4220570fc4",
         "parentUid" : "c969249442d1f9219f4a47affd179d2d",
         "status" : "passed",
         "time" : {
@@ -411,7 +119,7 @@
         "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "'desc'", "'1418816972'" ]
       }, {
         "name" : "test_service_info[服务详情]",
-        "uid" : "1870c8e3e063c0a7",
+        "uid" : "99f261f8746f0364",
         "parentUid" : "c969249442d1f9219f4a47affd179d2d",
         "status" : "passed",
         "time" : {
@@ -425,10 +133,246 @@
       } ],
       "uid" : "c969249442d1f9219f4a47affd179d2d"
     }, {
+      "name" : "12096-MainThread",
+      "children" : [ {
+        "name" : "test_service_info[desc--expect1]",
+        "uid" : "b6d24bd08745856e",
+        "parentUid" : "ce6bf3ed2a401a5b940f68929ec393a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629818235613,
+          "stop" : 1629818235660,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': '必须为10位时间戳或时间范围错误', 'result': 'None', 'error_code': 209501}", "'desc'", "''" ]
+      }, {
+        "name" : "test_service_info[desc-1418816972-expect0]",
+        "uid" : "a5b13d22c27fdcb1",
+        "parentUid" : "ce6bf3ed2a401a5b940f68929ec393a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629818235502,
+          "stop" : 1629818235613,
+          "duration" : 111
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "'desc'", "'1418816972'" ]
+      }, {
+        "name" : "test_service_info[服务详情]",
+        "uid" : "e707d1b1144357f1",
+        "parentUid" : "ce6bf3ed2a401a5b940f68929ec393a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629818235660,
+          "stop" : 1629818235753,
+          "duration" : 93
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
+      } ],
+      "uid" : "ce6bf3ed2a401a5b940f68929ec393a6"
+    }, {
+      "name" : "4304-MainThread",
+      "children" : [ {
+        "name" : "test_service_info[获取笑话大全接口测试]",
+        "uid" : "8e43ad2e6d63ac6e",
+        "parentUid" : "472ac0b35cdb88fb4443d2b1c12976d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629816885963,
+          "stop" : 1629816885963,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['desc', '1418816972', {'reason': 'Success', 'result': 'content', 'error_code': 0}]" ]
+      }, {
+        "name" : "test_service_info[服务详情]",
+        "uid" : "32b50171b52acad2",
+        "parentUid" : "472ac0b35cdb88fb4443d2b1c12976d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629816885963,
+          "stop" : 1629816886119,
+          "duration" : 156
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
+      } ],
+      "uid" : "472ac0b35cdb88fb4443d2b1c12976d0"
+    }, {
+      "name" : "1196-MainThread",
+      "children" : [ {
+        "name" : "test_service_info[服务详情]",
+        "uid" : "61a290461c17dc5a",
+        "parentUid" : "ea2941c735e63f699622997eaa3653b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629818594816,
+          "stop" : 1629818594941,
+          "duration" : 125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
+      }, {
+        "name" : "test_service_info[-1418816972-expect2]",
+        "uid" : "1e935bc88734c620",
+        "parentUid" : "ea2941c735e63f699622997eaa3653b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629818594738,
+          "stop" : 1629818594816,
+          "duration" : 78
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "''", "'1418816972'" ]
+      }, {
+        "name" : "test_service_info[desc-1418816972-expect0]",
+        "uid" : "a03bed85b1bb8b82",
+        "parentUid" : "ea2941c735e63f699622997eaa3653b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629818594535,
+          "stop" : 1629818594660,
+          "duration" : 125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "'desc'", "'1418816972'" ]
+      }, {
+        "name" : "test_service_info[desc--expect1]",
+        "uid" : "606b9c1a354ffefe",
+        "parentUid" : "ea2941c735e63f699622997eaa3653b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629818594675,
+          "stop" : 1629818594722,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': '必须为10位时间戳或时间范围错误', 'result': 'None', 'error_code': 209501}", "'desc'", "''" ]
+      } ],
+      "uid" : "ea2941c735e63f699622997eaa3653b4"
+    }, {
+      "name" : "11836-MainThread",
+      "children" : [ {
+        "name" : "test_service_info[获取笑话大全接口测试]",
+        "uid" : "89159a01b0bf1096",
+        "parentUid" : "fe042ef0c247dd7b9928e88a89baffa5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629816229628,
+          "stop" : 1629816229628,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "'desc'", "'1418816972'" ]
+      }, {
+        "name" : "test_service_info[服务详情]",
+        "uid" : "ce6268b0f9a0e4f8",
+        "parentUid" : "fe042ef0c247dd7b9928e88a89baffa5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629816229628,
+          "stop" : 1629816229784,
+          "duration" : 156
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
+      } ],
+      "uid" : "fe042ef0c247dd7b9928e88a89baffa5"
+    }, {
+      "name" : "10100-MainThread",
+      "children" : [ {
+        "name" : "test_service_info[获取笑话大全接口测试]",
+        "uid" : "1d930de79847e6a4",
+        "parentUid" : "78284fca710886cedd3c11c80a816e4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629814333784,
+          "stop" : 1629814333901,
+          "duration" : 117
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}" ]
+      }, {
+        "name" : "test_service_info[服务详情]",
+        "uid" : "32f8f67ebb732b75",
+        "parentUid" : "78284fca710886cedd3c11c80a816e4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629814333916,
+          "stop" : 1629814334023,
+          "duration" : 107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
+      } ],
+      "uid" : "78284fca710886cedd3c11c80a816e4f"
+    }, {
+      "name" : "5964-MainThread",
+      "children" : [ {
+        "name" : "test_service_info[获取笑话大全接口测试]",
+        "uid" : "4a2f69424c2c2d98",
+        "parentUid" : "3a7393a85bdef440a1f01891571675d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629814133159,
+          "stop" : 1629814133269,
+          "duration" : 110
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}" ]
+      }, {
+        "name" : "test_service_info[服务详情]",
+        "uid" : "5ac4f26f9312a1f0",
+        "parentUid" : "3a7393a85bdef440a1f01891571675d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629814133269,
+          "stop" : 1629814133378,
+          "duration" : 109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
+      } ],
+      "uid" : "3a7393a85bdef440a1f01891571675d4"
+    }, {
+      "name" : "12332-MainThread",
+      "children" : [ {
+        "name" : "test_service_info[服务详情]",
+        "uid" : "10f024627f97eb73",
+        "parentUid" : "7d2c0be86e6347f0627cef3cb93bc1c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629816910082,
+          "stop" : 1629816910210,
+          "duration" : 128
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
+      } ],
+      "uid" : "7d2c0be86e6347f0627cef3cb93bc1c3"
+    }, {
       "name" : "772-MainThread",
       "children" : [ {
         "name" : "test_service_info[服务详情]",
-        "uid" : "57c917f9613f1738",
+        "uid" : "c40239b45ec4aa27",
         "parentUid" : "b07f1465019770e5e42a45ace534b3ed",
         "status" : "passed",
         "time" : {
@@ -441,7 +385,7 @@
         "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
       }, {
         "name" : "test_service_info[获取笑话大全接口测试]",
-        "uid" : "e83227f16bffcb23",
+        "uid" : "7a2257e9f1b6f821",
         "parentUid" : "b07f1465019770e5e42a45ace534b3ed",
         "status" : "passed",
         "time" : {
@@ -455,53 +399,10 @@
       } ],
       "uid" : "b07f1465019770e5e42a45ace534b3ed"
     }, {
-      "name" : "6780-MainThread",
-      "children" : [ {
-        "name" : "test_service_info[获取笑话大全接口测试]",
-        "uid" : "9ec0a8d44fd012f2",
-        "parentUid" : "f481a2437b1bdc2f751bf7eb88a09dde",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629814436014,
-          "stop" : 1629814436155,
-          "duration" : 141
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}" ]
-      }, {
-        "name" : "test_service_info[服务详情]",
-        "uid" : "e78da403ba791d7e",
-        "parentUid" : "f481a2437b1bdc2f751bf7eb88a09dde",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629814436170,
-          "stop" : 1629814436280,
-          "duration" : 110
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
-      } ],
-      "uid" : "f481a2437b1bdc2f751bf7eb88a09dde"
-    }, {
       "name" : "7916-MainThread",
       "children" : [ {
-        "name" : "test_service_info[expect0]",
-        "uid" : "2bba73d4d0214fab",
-        "parentUid" : "fc7363279c7e980f9136bcee22e73d43",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629818109380,
-          "stop" : 1629818109380,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "[['desc', '1418816972', {'reason': 'Success', 'result': 'content', 'error_code': 0}], ['desc', '', {'reason': '必须为10位时间戳或时间范围错误', 'result': 'None', 'error_code': 209501}]]" ]
-      }, {
         "name" : "test_service_info[服务详情]",
-        "uid" : "22c68a92c7a44f1a",
+        "uid" : "8a4456a1c47e091e",
         "parentUid" : "fc7363279c7e980f9136bcee22e73d43",
         "status" : "passed",
         "time" : {
@@ -512,55 +413,210 @@
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
+      }, {
+        "name" : "test_service_info[expect0]",
+        "uid" : "d4b45f9c104890d0",
+        "parentUid" : "fc7363279c7e980f9136bcee22e73d43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629818109380,
+          "stop" : 1629818109380,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[['desc', '1418816972', {'reason': 'Success', 'result': 'content', 'error_code': 0}], ['desc', '', {'reason': '必须为10位时间戳或时间范围错误', 'result': 'None', 'error_code': 209501}]]" ]
       } ],
       "uid" : "fc7363279c7e980f9136bcee22e73d43"
     }, {
-      "name" : "5964-MainThread",
+      "name" : "764-MainThread",
       "children" : [ {
         "name" : "test_service_info[服务详情]",
-        "uid" : "715529d5baff4eb1",
-        "parentUid" : "3a7393a85bdef440a1f01891571675d4",
-        "status" : "passed",
+        "uid" : "682ca94f9db7c5dc",
+        "parentUid" : "625b94d0293da3945aa5fd5c8d61aaff",
+        "status" : "failed",
         "time" : {
-          "start" : 1629814133269,
-          "stop" : 1629814133378,
-          "duration" : 109
+          "start" : 1629817620615,
+          "stop" : 1629817620849,
+          "duration" : 234
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
       }, {
         "name" : "test_service_info[获取笑话大全接口测试]",
-        "uid" : "2020d37922c81131",
-        "parentUid" : "3a7393a85bdef440a1f01891571675d4",
+        "uid" : "9018d8a82ab2771d",
+        "parentUid" : "625b94d0293da3945aa5fd5c8d61aaff",
         "status" : "passed",
         "time" : {
-          "start" : 1629814133159,
-          "stop" : 1629814133269,
-          "duration" : 110
+          "start" : 1629817620615,
+          "stop" : 1629817620615,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}" ]
+        "parameters" : [ "[['desc', '1418816972', {'reason': 'Success', 'result': 'content', 'error_code': 0}], ['desc', '', {'reason': '必须为10位时间戳或时间范围错误', 'result': 'None', 'error_code': 209501}]]" ]
       } ],
-      "uid" : "3a7393a85bdef440a1f01891571675d4"
+      "uid" : "625b94d0293da3945aa5fd5c8d61aaff"
     }, {
-      "name" : "12332-MainThread",
+      "name" : "13224-MainThread",
       "children" : [ {
-        "name" : "test_service_info[服务详情]",
-        "uid" : "68bae784f8c2d101",
-        "parentUid" : "7d2c0be86e6347f0627cef3cb93bc1c3",
+        "name" : "test_service_info[expect0]",
+        "uid" : "f19dff09d6d1d7c2",
+        "parentUid" : "de79444aaa10b4420293b83f3217bd93",
         "status" : "passed",
         "time" : {
-          "start" : 1629816910082,
-          "stop" : 1629816910210,
-          "duration" : 128
+          "start" : 1629818081958,
+          "stop" : 1629818081958,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[['desc', '1418816972', {'reason': 'Success', 'result': 'content', 'error_code': 0}], ['desc', '', {'reason': '必须为10位时间戳或时间范围错误', 'result': 'None', 'error_code': 209501}]]" ]
+      }, {
+        "name" : "test_service_info[服务详情]",
+        "uid" : "3647cde1d11ea1f7",
+        "parentUid" : "de79444aaa10b4420293b83f3217bd93",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629818081973,
+          "stop" : 1629818082083,
+          "duration" : 110
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
       } ],
-      "uid" : "7d2c0be86e6347f0627cef3cb93bc1c3"
+      "uid" : "de79444aaa10b4420293b83f3217bd93"
+    }, {
+      "name" : "6856-MainThread",
+      "children" : [ {
+        "name" : "test_service_info[服务详情]",
+        "uid" : "304f4c2555745c6f",
+        "parentUid" : "29b67c152febaa064c6505a282109852",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629818141843,
+          "stop" : 1629818141984,
+          "duration" : 141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
+      }, {
+        "name" : "test_service_info[expect0]",
+        "uid" : "5c06b40d0b1d4e5a",
+        "parentUid" : "29b67c152febaa064c6505a282109852",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629818141828,
+          "stop" : 1629818141828,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['desc', '1418816972', {'reason': 'Success', 'result': 'content', 'error_code': 0}]" ]
+      }, {
+        "name" : "test_service_info[expect1]",
+        "uid" : "3e5706731e9a2af8",
+        "parentUid" : "29b67c152febaa064c6505a282109852",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629818141843,
+          "stop" : 1629818141843,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['desc', '', {'reason': '必须为10位时间戳或时间范围错误', 'result': 'None', 'error_code': 209501}]" ]
+      } ],
+      "uid" : "29b67c152febaa064c6505a282109852"
+    }, {
+      "name" : "12932-MainThread",
+      "children" : [ {
+        "name" : "test_service_info[我也好]",
+        "uid" : "684d1c0a43d2d618",
+        "parentUid" : "aa08165798d7611f5c65079f672b4c92",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629818016755,
+          "stop" : 1629818016755,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'我也好'" ]
+      }, {
+        "name" : "test_service_info[他好]",
+        "uid" : "52c083a04c9bb5d0",
+        "parentUid" : "aa08165798d7611f5c65079f672b4c92",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629818016755,
+          "stop" : 1629818016755,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'他好'" ]
+      }, {
+        "name" : "test_service_info[服务详情]",
+        "uid" : "3764f1f8d2c7fc9",
+        "parentUid" : "aa08165798d7611f5c65079f672b4c92",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629818016770,
+          "stop" : 1629818016911,
+          "duration" : 141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
+      }, {
+        "name" : "test_service_info[你好]",
+        "uid" : "32fe523e560c9f34",
+        "parentUid" : "aa08165798d7611f5c65079f672b4c92",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629818016755,
+          "stop" : 1629818016755,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'你好'" ]
+      } ],
+      "uid" : "aa08165798d7611f5c65079f672b4c92"
+    }, {
+      "name" : "6780-MainThread",
+      "children" : [ {
+        "name" : "test_service_info[服务详情]",
+        "uid" : "29305806bbe5ec9",
+        "parentUid" : "f481a2437b1bdc2f751bf7eb88a09dde",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629814436170,
+          "stop" : 1629814436280,
+          "duration" : 110
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
+      }, {
+        "name" : "test_service_info[获取笑话大全接口测试]",
+        "uid" : "3e97e5cd022da5d4",
+        "parentUid" : "f481a2437b1bdc2f751bf7eb88a09dde",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629814436014,
+          "stop" : 1629814436155,
+          "duration" : 141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}" ]
+      } ],
+      "uid" : "f481a2437b1bdc2f751bf7eb88a09dde"
     } ],
     "uid" : "8d6aea4551548a314299e24492556fb2"
   } ]
