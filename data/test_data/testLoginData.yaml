@@ -1,0 +1,50 @@
+#登录接口的测试数据
+#
+#-
+#  url: /api/loginS
+#  method: post
+
+- #测试用例1：测试数据
+  detail: 账号与密码正确
+  data:
+    username: '20200015'
+    password: '123456'
+  resp:
+    code: 200
+    message: '登录成功'
+
+- #测试用例2：测试数据
+  detail: 账号为空，密码正确
+  data:
+    username: ''
+    password: '123456'
+  resp:
+    code: 400
+    message: '用户不名能为空'
+
+- #测试用例3：测试数据
+  detail: 密码为空，账号正确
+  data:
+    username: '20200015'
+    password: ''
+  resp:
+    code: 4
+    message: '密码错误'
+
+- #测试用例4：测试数据
+  detail: 账号与密码错误
+  data:
+    username: '20200015'
+    password: '34343434'
+  resp:
+    code: 400
+    message: '密码错误'
+
+- #测试用例5：测试数据
+  detail: 账号错误
+  data:
+    username: '2020001'
+    password: '34343434'
+  resp:
+    code: 400
+    message: '用户名不存在'

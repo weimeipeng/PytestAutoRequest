@@ -4,6 +4,7 @@ Create time: 2021/2/14
 Developer: 韦鹏
 '''
 import os
+import shutil
 import pytest
 from api.get_token import Get_Token
 from common.http_requests import HttpRequests
@@ -11,12 +12,19 @@ from common.http_requests import HttpRequests
 
 @pytest.fixture(scope="session")
 def get_token():
+
     '''前置操作获取token并传入headers'''
     Get_Token().get_token()
     if not HttpRequests().params.get("access_token", ""):#没有get到token，跳出用例
         pytest.skip("未获取token跳过用例")
     yield HttpRequests().req
     HttpRequests().req.close()
+    # 清理测试数据
+    if not os.path.exists('report/tmp'):
+        os.mkdir('report/tmp')
+    else:
+        shutil.rmtree('report/tmp')
+        os.mkdir('report/tmp')
 
 def pytest_addoption(parser):
     parser.addoption(

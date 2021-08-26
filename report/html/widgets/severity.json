@@ -1,100 +1,100 @@
 [ {
-  "uid" : "a03bed85b1bb8b82",
+  "uid" : "b4bda4ad9081cc7e",
+  "name" : "test_service_info[data2]",
+  "time" : {
+    "start" : 1629991894686,
+    "stop" : 1629991894722,
+    "duration" : 36
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "172ca62c4efa1941",
   "name" : "test_service_info[desc-1418816972-expect0]",
   "time" : {
-    "start" : 1629818594535,
-    "stop" : 1629818594660,
-    "duration" : 125
+    "start" : 1629991893972,
+    "stop" : 1629991894095,
+    "duration" : 123
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5c06b40d0b1d4e5a",
-  "name" : "test_service_info[expect0]",
-  "time" : {
-    "start" : 1629818141828,
-    "stop" : 1629818141828,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "61a290461c17dc5a",
+  "uid" : "cf65814bc0e9e1be",
   "name" : "test_service_info[服务详情]",
   "time" : {
-    "start" : 1629818594816,
-    "stop" : 1629818594941,
-    "duration" : 125
+    "start" : 1629991894853,
+    "stop" : 1629991894957,
+    "duration" : 104
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6952daf711f2223a",
-  "name" : "test_service_info[他好]",
+  "uid" : "2cda50868dd7f56e",
+  "name" : "test_service_info[data3]",
   "time" : {
-    "start" : 1629818026129,
-    "stop" : 1629818026129,
-    "duration" : 0
+    "start" : 1629991894739,
+    "stop" : 1629991894787,
+    "duration" : 48
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "62552499019971c9",
-  "name" : "test_service_info[你好]",
+  "uid" : "e0fc44da92fe5dd3",
+  "name" : "test_service_info[data0]",
   "time" : {
-    "start" : 1629818026113,
-    "stop" : 1629818026113,
-    "duration" : 0
+    "start" : 1629991894370,
+    "stop" : 1629991894427,
+    "duration" : 57
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "606b9c1a354ffefe",
-  "name" : "test_service_info[desc--expect1]",
+  "uid" : "79a3613dcabe490f",
+  "name" : "test_service_info[data5]",
   "time" : {
-    "start" : 1629818594675,
-    "stop" : 1629818594722,
-    "duration" : 47
+    "start" : 1629991852790,
+    "stop" : 1629991852833,
+    "duration" : 43
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6ab942e6b87f5dc8",
-  "name" : "test_service_info[我也好]",
-  "time" : {
-    "start" : 1629818026135,
-    "stop" : 1629818026135,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1e935bc88734c620",
+  "uid" : "d5d2013b5c1ba5e0",
   "name" : "test_service_info[-1418816972-expect2]",
   "time" : {
-    "start" : 1629818594738,
-    "stop" : 1629818594816,
-    "duration" : 78
+    "start" : 1629991894226,
+    "stop" : 1629991894330,
+    "duration" : 104
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3e5706731e9a2af8",
-  "name" : "test_service_info[expect1]",
+  "uid" : "32f29f9987c8a0e5",
+  "name" : "test_service_info[desc--expect1]",
   "time" : {
-    "start" : 1629818141843,
-    "stop" : 1629818141843,
-    "duration" : 0
+    "start" : 1629991894131,
+    "stop" : 1629991894194,
+    "duration" : 63
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9018d8a82ab2771d",
-  "name" : "test_service_info[获取笑话大全接口测试]",
+  "uid" : "8a54d40041d01625",
+  "name" : "test_service_info[data1]",
   "time" : {
-    "start" : 1629817620615,
-    "stop" : 1629817620615,
-    "duration" : 0
+    "start" : 1629991894436,
+    "stop" : 1629991894472,
+    "duration" : 36
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c88e3f8ae0f07f2",
+  "name" : "test_service_info[data4]",
+  "time" : {
+    "start" : 1629991894801,
+    "stop" : 1629991894843,
+    "duration" : 42
   },
   "status" : "passed",
   "severity" : "normal"

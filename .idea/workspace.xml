@@ -2,10 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c3de4e0-aaa6-4e88-b57a-600b0cfa9fd2" name="Changes" comment="ss">
-      <change afterPath="$PROJECT_DIR$/api/api_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case/test_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test_data/testLoginData.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/api_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/data/behaviors.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/data/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/data/categories.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/data/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/data/packages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/data/suites.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/data/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/data/timeline.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/export/influxDbData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/export/prometheusData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/history/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/history/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/history/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/history/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/history/history.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/history/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/widgets/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/widgets/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/widgets/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/widgets/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/widgets/duration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/widgets/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/widgets/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/widgets/severity.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/widgets/status-chart.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/widgets/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/widgets/summary.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,11 +66,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/api" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/case" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\weipeng\Desktop\Myproject\PytestAutoRequest\case" />
       <recent name="C:\Users\weipeng\Desktop\Myproject\PytestAutoRequest\api" />
       <recent name="C:\Users\tyl\Desktop\PytestAutoRequest\api" />
     </key>
@@ -51,7 +79,7 @@
       <recent name="L:\Myprojects\PytestAutoRequest\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.api_login">
+  <component name="RunManager" selected="Python.run_main">
     <configuration name="api_News" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PytestAutoRequest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -214,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629818280292</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ss">
+      <created>1629904690350</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1629904690350</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
