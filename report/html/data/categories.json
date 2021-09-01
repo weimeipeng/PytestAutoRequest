@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "AttributeError: 'Api_News_Service' object has no attribute 'get_first_hot'",
+      "children" : [ {
+        "name" : "test_service_info[服务详情]",
+        "uid" : "fc0935f36fe29631",
+        "parentUid" : "d9d2e65c64d7fb07e4a9b3284cbd05cc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630487920487,
+          "stop" : 1630487920490,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
+      } ],
+      "uid" : "d9d2e65c64d7fb07e4a9b3284cbd05cc"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

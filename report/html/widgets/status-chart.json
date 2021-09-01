@@ -1,100 +1,130 @@
 [ {
-  "uid" : "62552499019971c9",
-  "name" : "test_service_info[你好]",
+  "uid" : "e6e6302d86c50284",
+  "name" : "test_service_info[排序参数：空]",
   "time" : {
-    "start" : 1629818026113,
-    "stop" : 1629818026113,
-    "duration" : 0
+    "start" : 1630488003543,
+    "stop" : 1630488003730,
+    "duration" : 187
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6952daf711f2223a",
-  "name" : "test_service_info[他好]",
+  "uid" : "174ebf96e37da63b",
+  "name" : "test_News_info",
   "time" : {
-    "start" : 1629818026129,
-    "stop" : 1629818026129,
-    "duration" : 0
+    "start" : 1630488003752,
+    "stop" : 1630488003900,
+    "duration" : 148
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9018d8a82ab2771d",
-  "name" : "test_service_info[获取笑话大全接口测试]",
+  "uid" : "eccaf8fdfc71a7e8",
+  "name" : "test_service_info[时间参数：空]",
   "time" : {
-    "start" : 1629817620615,
-    "stop" : 1629817620615,
-    "duration" : 0
+    "start" : 1630488003402,
+    "stop" : 1630488003513,
+    "duration" : 111
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a03bed85b1bb8b82",
-  "name" : "test_service_info[desc-1418816972-expect0]",
-  "time" : {
-    "start" : 1629818594535,
-    "stop" : 1629818594660,
-    "duration" : 125
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "606b9c1a354ffefe",
-  "name" : "test_service_info[desc--expect1]",
-  "time" : {
-    "start" : 1629818594675,
-    "stop" : 1629818594722,
-    "duration" : 47
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "61a290461c17dc5a",
+  "uid" : "152ea6f5408d14f6",
   "name" : "test_service_info[服务详情]",
   "time" : {
-    "start" : 1629818594816,
-    "stop" : 1629818594941,
+    "start" : 1630488004297,
+    "stop" : 1630488004386,
+    "duration" : 89
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2bf970c00027d4c",
+  "name" : "test_service_info[-1418816972-expect2]",
+  "time" : {
+    "start" : 1630488004676,
+    "stop" : 1630488004801,
     "duration" : 125
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6ab942e6b87f5dc8",
-  "name" : "test_service_info[我也好]",
+  "uid" : "2d4ac39c9d8133e4",
+  "name" : "test_service_info[desc-1418816972-expect0]",
   "time" : {
-    "start" : 1629818026135,
-    "stop" : 1629818026135,
-    "duration" : 0
+    "start" : 1630488004403,
+    "stop" : 1630488004544,
+    "duration" : 141
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1e935bc88734c620",
-  "name" : "test_service_info[-1418816972-expect2]",
+  "uid" : "e19117b3611f9dff",
+  "name" : "test_service_info[正常访问]",
   "time" : {
-    "start" : 1629818594738,
-    "stop" : 1629818594816,
-    "duration" : 78
+    "start" : 1630488003100,
+    "stop" : 1630488003383,
+    "duration" : 283
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5c06b40d0b1d4e5a",
-  "name" : "test_service_info[expect0]",
+  "uid" : "fc0935f36fe29631",
+  "name" : "test_service_info[服务详情]",
   "time" : {
-    "start" : 1629818141828,
-    "stop" : 1629818141828,
-    "duration" : 0
+    "start" : 1630487920487,
+    "stop" : 1630487920490,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "55d30831af0df3ab",
+  "name" : "test_phone[手机号码归属地查询接口:正确请求]",
+  "time" : {
+    "start" : 1630488003915,
+    "stop" : 1630488004077,
+    "duration" : 162
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3e5706731e9a2af8",
-  "name" : "test_service_info[expect1]",
+  "uid" : "95e3ae6183938081",
+  "name" : "test_phone[手机号为空，异常校验]",
   "time" : {
-    "start" : 1629818141843,
-    "stop" : 1629818141843,
-    "duration" : 0
+    "start" : 1630488004185,
+    "stop" : 1630488004278,
+    "duration" : 93
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f1ed24b40903f5e",
+  "name" : "test_constellation_info[星座运势查询接口]",
+  "time" : {
+    "start" : 1630488002938,
+    "stop" : 1630488003091,
+    "duration" : 153
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77128d4cb5ca9167",
+  "name" : "test_phone[返回类型为空，默认json正确请求]",
+  "time" : {
+    "start" : 1630488004087,
+    "stop" : 1630488004177,
+    "duration" : 90
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc4f5c04ddb47d4f",
+  "name" : "test_service_info[desc--expect1]",
+  "time" : {
+    "start" : 1630488004562,
+    "stop" : 1630488004663,
+    "duration" : 101
   },
   "status" : "passed",
   "severity" : "normal"
