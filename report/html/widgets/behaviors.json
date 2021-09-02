@@ -1,5 +1,5 @@
 {
-  "total" : 2,
+  "total" : 3,
   "items" : [ {
     "uid" : "0e44372f753e56f2028403d2d7756216",
     "name" : "服务详情",
@@ -10,6 +10,17 @@
       "passed" : 7,
       "unknown" : 0,
       "total" : 8
+    }
+  }, {
+    "uid" : "7889f7aed7956d7f1f530e9987971804",
+    "name" : "教师系统接口",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 20,
+      "unknown" : 0,
+      "total" : 20
     }
   }, {
     "uid" : "20a2567168753d6465693996b4d94e30",

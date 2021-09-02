@@ -7,7 +7,7 @@
       "name" : "AttributeError: 'Api_News_Service' object has no attribute 'get_first_hot'",
       "children" : [ {
         "name" : "test_service_info[服务详情]",
-        "uid" : "fc0935f36fe29631",
+        "uid" : "d4fd51ac49ab7b7b",
         "parentUid" : "d9d2e65c64d7fb07e4a9b3284cbd05cc",
         "status" : "broken",
         "time" : {
