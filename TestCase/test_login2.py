@@ -1,3 +1,4 @@
+from api.api_login import Login
 from common.my_requests import Myrequest
 import sys
 import allure
@@ -30,15 +31,22 @@ class Test_Login(object):
 
         self.log.info('%s{%s}' % ((sys._getframe().f_code.co_name,data['detail'])))
         with allure.step(data['detail']):
-            msg = Myrequest().login({"username":username,"password":password},mode=False)
-        self.log.info('%s:%s' %((sys._getframe().f_code.co_name,'请求结果：%s' % msg.json())))
+            msg = Login().login({"username":username,"password":password},mode=False).json()
+        self.log.info('%s:%s' %((sys._getframe().f_code.co_name,'请求结果：%s' % msg)))
 
         #断言
         # assert msg.json()['detail'] == data['detail']
         # assert msg.json()['data']['username'] == data['data']['username']
         # assert msg.json()['data']['password'] == data['data']['password']
-        assert msg.json()['code'] == data['resp']['code']
-        assert msg.json()['message'] == data['resp']['message']
+        # assert msg.json()['code'] == data['resp']['code']
+        # assert msg.json()['message'] == data['resp']['message']
+
+        for key, value in dict(data).items():
+            print("key", key)
+            if key !='detail':
+                assert key in dict(msg).keys(), '关键字"{}"不存在源码中!'.format(key)
+                # assert value in dict(msg).values(),'关键字"{}"不存在源码中!'.format(value)
+
 
 
 

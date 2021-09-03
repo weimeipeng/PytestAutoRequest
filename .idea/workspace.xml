@@ -3,6 +3,39 @@
   <component name="ChangeListManager">
     <list default="true" id="7c3de4e0-aaa6-4e88-b57a-600b0cfa9fd2" name="Changes" comment="ss">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/test_login2.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_login2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/data/behaviors.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/data/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/data/categories.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/data/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/data/packages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/data/suites.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/data/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/data/timeline.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/export/influxDbData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/export/mail.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/export/mail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/export/prometheusData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/history/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/history/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/history/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/history/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/history/history.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/history/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/plugins/screen-diff/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/plugins/screen-diff/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/plugins/screen-diff/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/plugins/screen-diff/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/widgets/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/widgets/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/widgets/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/widgets/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/widgets/duration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/widgets/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/widgets/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/widgets/severity.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/widgets/status-chart.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/widgets/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/html/widgets/summary.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,10 +218,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.api_News" />
       <item itemvalue="Python.api_content" />
-      <item itemvalue="Python.run_main (1)" />
       <item itemvalue="Python.run_main" />
+      <item itemvalue="Python.api_News" />
+      <item itemvalue="Python.run_main (1)" />
       <item itemvalue="Python.test_login1" />
     </list>
     <recent_temporary>
@@ -282,22 +315,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="332" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1630575652556" />
-    <state width="1344" height="57" key="GridCell.Tab.0.bottom" timestamp="1630575655290">
+    <state width="1344" height="238" key="GridCell.Tab.0.bottom" timestamp="1630660082999">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1344" height="57" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1630575655290" />
-    <state width="1344" height="57" key="GridCell.Tab.0.center" timestamp="1630575655290">
+    <state width="1344" height="238" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1630660082999" />
+    <state width="1344" height="238" key="GridCell.Tab.0.center" timestamp="1630660082999">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1344" height="57" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1630575655290" />
-    <state width="1344" height="57" key="GridCell.Tab.0.left" timestamp="1630575655290">
+    <state width="1344" height="238" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1630660082999" />
+    <state width="1344" height="238" key="GridCell.Tab.0.left" timestamp="1630660082998">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1344" height="57" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1630575655290" />
-    <state width="1344" height="57" key="GridCell.Tab.0.right" timestamp="1630575655290">
+    <state width="1344" height="238" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1630660082998" />
+    <state width="1344" height="238" key="GridCell.Tab.0.right" timestamp="1630660082999">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1344" height="57" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1630575655290" />
+    <state width="1344" height="238" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1630660082999" />
     <state x="158" y="0" key="SettingsEditor" timestamp="1630570615680">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
