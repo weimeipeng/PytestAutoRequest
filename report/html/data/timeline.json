@@ -4,597 +4,2061 @@
   "children" : [ {
     "name" : "DESKTOP-9PO3806",
     "children" : [ {
-      "name" : "18004-MainThread",
+      "name" : "312-MainThread",
       "children" : [ {
-        "name" : "test_service_info[data0]",
-        "uid" : "981808861579a5f0",
-        "parentUid" : "76ef7a0c36f99f1d81fe6b4eded4a4d8",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629991454380,
-          "stop" : 1629991454449,
-          "duration" : 69
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'detail': '账号与密码正确', 'data': {'username': '20200015', 'password': '123456'}, 'resp': {'code': 200, 'message': '登录成功'}}" ]
-      }, {
-        "name" : "test_service_info[data1]",
-        "uid" : "e0970216c1ebdebf",
-        "parentUid" : "76ef7a0c36f99f1d81fe6b4eded4a4d8",
-        "status" : "failed",
-        "time" : {
-          "start" : 1629991454471,
-          "stop" : 1629991454512,
-          "duration" : 41
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'detail': '账号为空，密码正确', 'data': {'username': '', 'password': '123456'}, 'resp': {'code': 400, 'message': '用户不名能为空'}}" ]
-      }, {
         "name" : "test_service_info[data4]",
-        "uid" : "5bc35c4d519e5fa3",
-        "parentUid" : "76ef7a0c36f99f1d81fe6b4eded4a4d8",
-        "status" : "passed",
+        "uid" : "1b9af958680af6b9",
+        "parentUid" : "213d003f83fc917b417c2e1c8b7e3a8b",
+        "status" : "skipped",
         "time" : {
-          "start" : 1629991454827,
-          "stop" : 1629991454867,
-          "duration" : 40
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'detail': '账号错误', 'data': {'username': '2020001', 'password': '34343434'}, 'resp': {'code': 400, 'message': '用户名不存在'}}" ]
-      }, {
-        "name" : "test_service_info[服务详情]",
-        "uid" : "458a6db807e35c1b",
-        "parentUid" : "76ef7a0c36f99f1d81fe6b4eded4a4d8",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629991454877,
-          "stop" : 1629991454978,
-          "duration" : 101
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
-      }, {
-        "name" : "test_service_info[desc--expect1]",
-        "uid" : "8387e7a84f62e5",
-        "parentUid" : "76ef7a0c36f99f1d81fe6b4eded4a4d8",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629991454165,
-          "stop" : 1629991454222,
-          "duration" : 57
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'reason': '必须为10位时间戳或时间范围错误', 'result': 'None', 'error_code': 209501}", "'desc'", "''" ]
-      }, {
-        "name" : "test_service_info[data2]",
-        "uid" : "560d05fc00cab571",
-        "parentUid" : "76ef7a0c36f99f1d81fe6b4eded4a4d8",
-        "status" : "failed",
-        "time" : {
-          "start" : 1629991454721,
-          "stop" : 1629991454760,
-          "duration" : 39
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'detail': '密码为空，账号正确', 'data': {'username': '20200015', 'password': ''}, 'resp': {'code': 4, 'message': '密码错误'}}" ]
-      }, {
-        "name" : "test_service_info[-1418816972-expect2]",
-        "uid" : "4bf9f1a480ea7b0c",
-        "parentUid" : "76ef7a0c36f99f1d81fe6b4eded4a4d8",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629991454246,
-          "stop" : 1629991454345,
-          "duration" : 99
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "''", "'1418816972'" ]
-      }, {
-        "name" : "test_service_info[data3]",
-        "uid" : "537679ca9c5210d1",
-        "parentUid" : "76ef7a0c36f99f1d81fe6b4eded4a4d8",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629991454775,
-          "stop" : 1629991454811,
-          "duration" : 36
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'detail': '账号与密码错误', 'data': {'username': '20200015', 'password': '34343434'}, 'resp': {'code': 400, 'message': '密码错误'}}" ]
-      }, {
-        "name" : "test_service_info[desc-1418816972-expect0]",
-        "uid" : "b9122541814e683a",
-        "parentUid" : "76ef7a0c36f99f1d81fe6b4eded4a4d8",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629991454020,
-          "stop" : 1629991454143,
-          "duration" : 123
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "'desc'", "'1418816972'" ]
-      } ],
-      "uid" : "76ef7a0c36f99f1d81fe6b4eded4a4d8"
-    }, {
-      "name" : "14396-MainThread",
-      "children" : [ {
-        "name" : "test_service_info[desc-1418816972-expect0]",
-        "uid" : "172ca62c4efa1941",
-        "parentUid" : "2622a7364cee9561b3cbdef528c499c3",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629991893972,
-          "stop" : 1629991894095,
-          "duration" : 123
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "'desc'", "'1418816972'" ]
-      }, {
-        "name" : "test_service_info[desc--expect1]",
-        "uid" : "32f29f9987c8a0e5",
-        "parentUid" : "2622a7364cee9561b3cbdef528c499c3",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629991894131,
-          "stop" : 1629991894194,
-          "duration" : 63
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'reason': '必须为10位时间戳或时间范围错误', 'result': 'None', 'error_code': 209501}", "'desc'", "''" ]
-      }, {
-        "name" : "test_service_info[data2]",
-        "uid" : "b4bda4ad9081cc7e",
-        "parentUid" : "2622a7364cee9561b3cbdef528c499c3",
-        "status" : "failed",
-        "time" : {
-          "start" : 1629991894686,
-          "stop" : 1629991894722,
-          "duration" : 36
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'detail': '密码为空，账号正确', 'data': {'username': '20200015', 'password': ''}, 'resp': {'code': 4, 'message': '密码错误'}}" ]
-      }, {
-        "name" : "test_service_info[data0]",
-        "uid" : "e0fc44da92fe5dd3",
-        "parentUid" : "2622a7364cee9561b3cbdef528c499c3",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629991894370,
-          "stop" : 1629991894427,
-          "duration" : 57
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'detail': '账号与密码正确', 'data': {'username': '20200015', 'password': '123456'}, 'resp': {'code': 200, 'message': '登录成功'}}" ]
-      }, {
-        "name" : "test_service_info[data1]",
-        "uid" : "8a54d40041d01625",
-        "parentUid" : "2622a7364cee9561b3cbdef528c499c3",
-        "status" : "failed",
-        "time" : {
-          "start" : 1629991894436,
-          "stop" : 1629991894472,
-          "duration" : 36
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'detail': '账号为空，密码正确', 'data': {'username': '', 'password': '123456'}, 'resp': {'code': 400, 'message': '用户不名能为空'}}" ]
-      }, {
-        "name" : "test_service_info[data3]",
-        "uid" : "2cda50868dd7f56e",
-        "parentUid" : "2622a7364cee9561b3cbdef528c499c3",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629991894739,
-          "stop" : 1629991894787,
-          "duration" : 48
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'detail': '账号与密码错误', 'data': {'username': '20200015', 'password': '34343434'}, 'resp': {'code': 400, 'message': '密码错误'}}" ]
-      }, {
-        "name" : "test_service_info[服务详情]",
-        "uid" : "cf65814bc0e9e1be",
-        "parentUid" : "2622a7364cee9561b3cbdef528c499c3",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629991894853,
-          "stop" : 1629991894957,
-          "duration" : 104
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
-      }, {
-        "name" : "test_service_info[-1418816972-expect2]",
-        "uid" : "d5d2013b5c1ba5e0",
-        "parentUid" : "2622a7364cee9561b3cbdef528c499c3",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629991894226,
-          "stop" : 1629991894330,
-          "duration" : 104
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "''", "'1418816972'" ]
-      }, {
-        "name" : "test_service_info[data4]",
-        "uid" : "1c88e3f8ae0f07f2",
-        "parentUid" : "2622a7364cee9561b3cbdef528c499c3",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629991894801,
-          "stop" : 1629991894843,
-          "duration" : 42
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'detail': '账号错误', 'data': {'username': '2020001', 'password': '34343434'}, 'resp': {'code': 400, 'message': '用户名不存在'}}" ]
-      } ],
-      "uid" : "2622a7364cee9561b3cbdef528c499c3"
-    }, {
-      "name" : "16680-MainThread",
-      "children" : [ {
-        "name" : "test_service_info[data0]",
-        "uid" : "687d9f4d0c4c8a6d",
-        "parentUid" : "4a7edb675b8f74e84b47c3aaac49c0ea",
-        "status" : "failed",
-        "time" : {
-          "start" : 1629991785385,
-          "stop" : 1629991785434,
-          "duration" : 49
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'detail': '账号为空，密码正确', 'data': {'username': '', 'password': '123456'}, 'resp': {'code': 400, 'message': '用户不名能为空'}}" ]
-      }, {
-        "name" : "test_service_info[data3]",
-        "uid" : "be364e6d8cf1c154",
-        "parentUid" : "4a7edb675b8f74e84b47c3aaac49c0ea",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629991785755,
-          "stop" : 1629991785789,
-          "duration" : 34
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'detail': '账号错误', 'data': {'username': '2020001', 'password': '34343434'}, 'resp': {'code': 400, 'message': '用户名不存在'}}" ]
-      }, {
-        "name" : "test_service_info[desc--expect1]",
-        "uid" : "7cb7e8db6095a85",
-        "parentUid" : "4a7edb675b8f74e84b47c3aaac49c0ea",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629991785231,
-          "stop" : 1629991785270,
-          "duration" : 39
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'reason': '必须为10位时间戳或时间范围错误', 'result': 'None', 'error_code': 209501}", "'desc'", "''" ]
-      }, {
-        "name" : "test_service_info[data1]",
-        "uid" : "15c44d735feb0dff",
-        "parentUid" : "4a7edb675b8f74e84b47c3aaac49c0ea",
-        "status" : "failed",
-        "time" : {
-          "start" : 1629991785642,
-          "stop" : 1629991785679,
-          "duration" : 37
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'detail': '密码为空，账号正确', 'data': {'username': '20200015', 'password': ''}, 'resp': {'code': 4, 'message': '密码错误'}}" ]
-      }, {
-        "name" : "test_service_info[desc-1418816972-expect0]",
-        "uid" : "8c7303ba7075426c",
-        "parentUid" : "4a7edb675b8f74e84b47c3aaac49c0ea",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629991785081,
-          "stop" : 1629991785201,
-          "duration" : 120
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "'desc'", "'1418816972'" ]
-      }, {
-        "name" : "test_service_info[data2]",
-        "uid" : "ac3395b6d934db79",
-        "parentUid" : "4a7edb675b8f74e84b47c3aaac49c0ea",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629991785695,
-          "stop" : 1629991785747,
-          "duration" : 52
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'detail': '账号与密码错误', 'data': {'username': '20200015', 'password': '34343434'}, 'resp': {'code': 400, 'message': '密码错误'}}" ]
-      }, {
-        "name" : "test_service_info[服务详情]",
-        "uid" : "9e19cf04c03c4dd5",
-        "parentUid" : "4a7edb675b8f74e84b47c3aaac49c0ea",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629991785799,
-          "stop" : 1629991785904,
-          "duration" : 105
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
-      }, {
-        "name" : "test_service_info[-1418816972-expect2]",
-        "uid" : "c4eb9c48d1351b1b",
-        "parentUid" : "4a7edb675b8f74e84b47c3aaac49c0ea",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629991785284,
-          "stop" : 1629991785371,
-          "duration" : 87
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "''", "'1418816972'" ]
-      } ],
-      "uid" : "4a7edb675b8f74e84b47c3aaac49c0ea"
-    }, {
-      "name" : "528-MainThread",
-      "children" : [ {
-        "name" : "test_service_info[服务详情]",
-        "uid" : "c8db7818f92df4ce",
-        "parentUid" : "dc9b93928ee5fbc298786c2441cf6dc7",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629991852845,
-          "stop" : 1629991852939,
-          "duration" : 94
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
-      }, {
-        "name" : "test_service_info[desc-1418816972-expect0]",
-        "uid" : "86f4a5544abf277e",
-        "parentUid" : "dc9b93928ee5fbc298786c2441cf6dc7",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629991852037,
-          "stop" : 1629991852152,
-          "duration" : 115
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "'desc'", "'1418816972'" ]
-      }, {
-        "name" : "test_service_info[desc--expect1]",
-        "uid" : "805c9ad305378752",
-        "parentUid" : "dc9b93928ee5fbc298786c2441cf6dc7",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629991852188,
-          "stop" : 1629991852232,
-          "duration" : 44
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'reason': '必须为10位时间戳或时间范围错误', 'result': 'None', 'error_code': 209501}", "'desc'", "''" ]
-      }, {
-        "name" : "test_service_info[data4]",
-        "uid" : "22f65186c0af19d5",
-        "parentUid" : "dc9b93928ee5fbc298786c2441cf6dc7",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629991852739,
-          "stop" : 1629991852775,
-          "duration" : 36
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'detail': '账号与密码错误', 'data': {'username': '20200015', 'password': '34343434'}, 'resp': {'code': 400, 'message': '密码错误'}}" ]
-      }, {
-        "name" : "test_service_info[data3]",
-        "uid" : "65bcc5a1d09a4968",
-        "parentUid" : "dc9b93928ee5fbc298786c2441cf6dc7",
-        "status" : "failed",
-        "time" : {
-          "start" : 1629991852687,
-          "stop" : 1629991852723,
-          "duration" : 36
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'detail': '密码为空，账号正确', 'data': {'username': '20200015', 'password': ''}, 'resp': {'code': 4, 'message': '密码错误'}}" ]
-      }, {
-        "name" : "test_service_info[data0]",
-        "uid" : "789fa71e5a200f63",
-        "parentUid" : "dc9b93928ee5fbc298786c2441cf6dc7",
-        "status" : "broken",
-        "time" : {
-          "start" : 1629991852379,
-          "stop" : 1629991852379,
+          "start" : 1630848217605,
+          "stop" : 1630848217605,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'url': '/api/loginS', 'method': 'post'}" ]
+        "parameters" : [ "{'detail': '账号错误', 'data': {'username': '2020001', 'password': '34343434'}, 'resp': {'code': 400, 'message': '用户名不存在'}}" ]
       }, {
-        "name" : "test_service_info[-1418816972-expect2]",
-        "uid" : "8db3a7d5ed1a2ec3",
-        "parentUid" : "dc9b93928ee5fbc298786c2441cf6dc7",
-        "status" : "passed",
+        "name" : "test_phone[data2]",
+        "uid" : "a6b4cba036b4912f",
+        "parentUid" : "213d003f83fc917b417c2e1c8b7e3a8b",
+        "status" : "broken",
         "time" : {
-          "start" : 1629991852266,
-          "stop" : 1629991852357,
-          "duration" : 91
+          "start" : 1630848217370,
+          "stop" : 1630848217401,
+          "duration" : 31
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "''", "'1418816972'" ]
+        "parameters" : [ "{'detail': '手机号为空：错误提示', 'data': {'phone': '', 'type': ''}, 'resp': {'resultcode': '201', 'reason': 'The phone number can not be empty!', 'result': None, 'error_code': 201101}}" ]
+      }, {
+        "name" : "test_service_info[data4]",
+        "uid" : "ca3bae4f0cace766",
+        "parentUid" : "213d003f83fc917b417c2e1c8b7e3a8b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848217495,
+          "stop" : 1630848217495,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号错误', 'data': {'username': '2020001', 'password': '34343434'}, 'resp': {'code': 400, 'message': '用户名不存在'}}" ]
+      }, {
+        "name" : "test_service_info[时间参数：空]",
+        "uid" : "21b2bb92dbdd3f21",
+        "parentUid" : "213d003f83fc917b417c2e1c8b7e3a8b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848217230,
+          "stop" : 1630848217230,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': '必须为10位时间戳或时间范围错误', 'result': 'None', 'error_code': 209501}", "'desc'", "''" ]
       }, {
         "name" : "test_service_info[data1]",
-        "uid" : "bb00976685537611",
-        "parentUid" : "dc9b93928ee5fbc298786c2441cf6dc7",
+        "uid" : "9e59016ef61136d4",
+        "parentUid" : "213d003f83fc917b417c2e1c8b7e3a8b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848217433,
+          "stop" : 1630848217433,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号为空，密码正确', 'data': {'username': '', 'password': '123456'}, 'resp': {'code': 400, 'message': '用户不名能为空'}}" ]
+      }, {
+        "name" : "test_service_info[data3]",
+        "uid" : "1a837e2a8708b53e",
+        "parentUid" : "213d003f83fc917b417c2e1c8b7e3a8b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848217526,
+          "stop" : 1630848217526,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号与密码错误', 'data': {'username': '20200015', 'password': '34343434'}, 'resp': {'code': 400, 'message': '密码错误'}}" ]
+      }, {
+        "name" : "test_News_info",
+        "uid" : "33df4272909afc4a",
+        "parentUid" : "213d003f83fc917b417c2e1c8b7e3a8b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848217245,
+          "stop" : 1630848217245,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_service_info[data3]",
+        "uid" : "1b72cee1f523b320",
+        "parentUid" : "213d003f83fc917b417c2e1c8b7e3a8b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848217448,
+          "stop" : 1630848217448,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号与密码错误', 'data': {'username': '20200015', 'password': '34343434'}, 'resp': {'code': 400, 'message': '密码错误'}}" ]
+      }, {
+        "name" : "test_phone[data0]",
+        "uid" : "8a13fa0ead99c83d",
+        "parentUid" : "213d003f83fc917b417c2e1c8b7e3a8b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630848217245,
+          "stop" : 1630848217308,
+          "duration" : 63
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '正确参数,返回json 数据', 'data': {'phone': '13291870920', 'type': 'json'}, 'resp': {'resultcode': '200', 'reason': 'Return Successd!', 'result': '杭州', 'error_code': 0}}" ]
+      }, {
+        "name" : "test_constellation_info[data0]",
+        "uid" : "bac6b248bbad4e2b",
+        "parentUid" : "213d003f83fc917b417c2e1c8b7e3a8b",
         "status" : "passed",
         "time" : {
-          "start" : 1629991852581,
-          "stop" : 1629991852626,
-          "duration" : 45
+          "start" : 1630848216964,
+          "stop" : 1630848217027,
+          "duration" : 63
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '正确参数,返回json 数据', 'data': {'consName': '水瓶座', 'type': 'today'}, 'resp': {'resultcode': '200', 'reason': 'Return Successd!', 'result': '水瓶座', 'error_code': 0}}" ]
+      }, {
+        "name" : "test_constellation_info[data2]",
+        "uid" : "4b8ae9af42dd6c00",
+        "parentUid" : "213d003f83fc917b417c2e1c8b7e3a8b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630848217198,
+          "stop" : 1630848217214,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '异常测试：type字段空', 'data': {'consName': '水瓶座', 'type': ''}, 'resp': {'resultcode': '201', 'reason': 'Return Successd!', 'result': 'null', 'error_code': 0}}" ]
+      }, {
+        "name" : "test_service_info[data0]",
+        "uid" : "7665ea1278267f0a",
+        "parentUid" : "213d003f83fc917b417c2e1c8b7e3a8b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848217511,
+          "stop" : 1630848217511,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'detail': '账号与密码正确', 'data': {'username': '20200015', 'password': '123456'}, 'resp': {'code': 200, 'message': '登录成功'}}" ]
       }, {
         "name" : "test_service_info[data2]",
-        "uid" : "4306c3a21960dd21",
-        "parentUid" : "dc9b93928ee5fbc298786c2441cf6dc7",
-        "status" : "failed",
+        "uid" : "f6c458fd864b0ce3",
+        "parentUid" : "213d003f83fc917b417c2e1c8b7e3a8b",
+        "status" : "skipped",
         "time" : {
-          "start" : 1629991852634,
-          "stop" : 1629991852671,
-          "duration" : 37
+          "start" : 1630848217448,
+          "stop" : 1630848217448,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'detail': '账号为空，密码正确', 'data': {'username': '', 'password': '123456'}, 'resp': {'code': 400, 'message': '用户不名能为空'}}" ]
+        "parameters" : [ "{'detail': '密码为空，账号正确', 'data': {'username': '20200015', 'password': ''}, 'resp': {'code': 4, 'message': '密码错误'}}" ]
       }, {
-        "name" : "test_service_info[data5]",
-        "uid" : "79a3613dcabe490f",
-        "parentUid" : "dc9b93928ee5fbc298786c2441cf6dc7",
-        "status" : "passed",
+        "name" : "test_service_info[正常访问]",
+        "uid" : "660a34e318807abb",
+        "parentUid" : "213d003f83fc917b417c2e1c8b7e3a8b",
+        "status" : "skipped",
         "time" : {
-          "start" : 1629991852790,
-          "stop" : 1629991852833,
-          "duration" : 43
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'detail': '账号错误', 'data': {'username': '2020001', 'password': '34343434'}, 'resp': {'code': 400, 'message': '用户名不存在'}}" ]
-      } ],
-      "uid" : "dc9b93928ee5fbc298786c2441cf6dc7"
-    }, {
-      "name" : "8776-MainThread",
-      "children" : [ {
-        "name" : "test_service_info[desc-1418816972-expect0]",
-        "uid" : "c6eb4f5ed29213e6",
-        "parentUid" : "b535f8a8e506c8fec605cbe9f3a9e37d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629991510982,
-          "stop" : 1629991511104,
-          "duration" : 122
+          "start" : 1630848217230,
+          "stop" : 1630848217230,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "'desc'", "'1418816972'" ]
       }, {
+        "name" : "test_constellation_info[data1]",
+        "uid" : "538ee578f24bdcd9",
+        "parentUid" : "213d003f83fc917b417c2e1c8b7e3a8b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630848217027,
+          "stop" : 1630848217058,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '异常测试：星座字段空', 'data': {'consName': '', 'type': 'today'}, 'resp': {'resultcode': '201', 'reason': 'Return Successd!', 'result': 'NAME ERROR!', 'error_code': 0}}" ]
+      }, {
+        "name" : "test_phone[data1]",
+        "uid" : "fbf6a312469f15f5",
+        "parentUid" : "213d003f83fc917b417c2e1c8b7e3a8b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630848217323,
+          "stop" : 1630848217355,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '正确参数(默认) 返回json 数据', 'data': {'phone': '13291870920', 'type': ''}, 'resp': {'resultcode': '200', 'reason': 'Return Successd!', 'result': '杭州', 'error_code': 0}}" ]
+      }, {
+        "name" : "test_service_info[data1]",
+        "uid" : "9c4c42e9d89a568c",
+        "parentUid" : "213d003f83fc917b417c2e1c8b7e3a8b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848217511,
+          "stop" : 1630848217511,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号为空，密码正确', 'data': {'username': '', 'password': '123456'}, 'resp': {'code': 400, 'message': '用户不名能为空'}}" ]
+      }, {
+        "name" : "test_service_info[data2]",
+        "uid" : "11b18b8c06c0f4d2",
+        "parentUid" : "213d003f83fc917b417c2e1c8b7e3a8b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848217526,
+          "stop" : 1630848217526,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '密码为空，账号正确', 'data': {'username': '20200015', 'password': ''}, 'resp': {'code': 4, 'message': '密码错误'}}" ]
+      }, {
+        "name" : "test_service_info[data0]",
+        "uid" : "490812574750bdf",
+        "parentUid" : "213d003f83fc917b417c2e1c8b7e3a8b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848217433,
+          "stop" : 1630848217433,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号与密码正确', 'data': {'username': '20200015', 'password': '123456'}, 'resp': {'code': 200, 'message': '登录成功'}}" ]
+      }, {
+        "name" : "test_service_info[排序参数：空]",
+        "uid" : "c1d1aaefc8a14a08",
+        "parentUid" : "213d003f83fc917b417c2e1c8b7e3a8b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848217245,
+          "stop" : 1630848217245,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "''", "'1418816972'" ]
+      }, {
+        "name" : "test_service_info[服务详情]",
+        "uid" : "3f2b3be84948d7fe",
+        "parentUid" : "213d003f83fc917b417c2e1c8b7e3a8b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848217651,
+          "stop" : 1630848217651,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
+      } ],
+      "uid" : "213d003f83fc917b417c2e1c8b7e3a8b"
+    }, {
+      "name" : "4216-MainThread",
+      "children" : [ {
+        "name" : "test_service_info[data1]",
+        "uid" : "127cf5319c9d51ff",
+        "parentUid" : "5a17eec2bf54c54c451b29e765b07f00",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630847759497,
+          "stop" : 1630847759497,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号为空，密码正确', 'data': {'username': '', 'password': '123456'}, 'resp': {'code': 400, 'message': '用户不名能为空'}}" ]
+      }, {
         "name" : "test_service_info[desc--expect1]",
-        "uid" : "c9570a0ae7822627",
-        "parentUid" : "b535f8a8e506c8fec605cbe9f3a9e37d",
+        "uid" : "3204b92d05a2a42",
+        "parentUid" : "5a17eec2bf54c54c451b29e765b07f00",
         "status" : "passed",
         "time" : {
-          "start" : 1629991511143,
-          "stop" : 1629991511206,
-          "duration" : 63
+          "start" : 1630847759654,
+          "stop" : 1630847759700,
+          "duration" : 46
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'reason': '必须为10位时间戳或时间范围错误', 'result': 'None', 'error_code': 209501}", "'desc'", "''" ]
       }, {
         "name" : "test_service_info[data0]",
-        "uid" : "77b9882bc5c2898c",
-        "parentUid" : "b535f8a8e506c8fec605cbe9f3a9e37d",
-        "status" : "broken",
+        "uid" : "a5e42847db9ac84c",
+        "parentUid" : "5a17eec2bf54c54c451b29e765b07f00",
+        "status" : "passed",
         "time" : {
-          "start" : 1629991511331,
-          "stop" : 1629991511375,
-          "duration" : 44
+          "start" : 1630847759825,
+          "stop" : 1630847759904,
+          "duration" : 79
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号与密码正确', 'data': {'username': '20200015', 'password': '123456'}, 'resp': {'code': 200, 'message': '登录成功'}}" ]
+      }, {
+        "name" : "test_service_info[data1]",
+        "uid" : "c4a98d449e638c2c",
+        "parentUid" : "5a17eec2bf54c54c451b29e765b07f00",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630847759482,
+          "stop" : 1630847759482,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'detail': '账号为空，密码正确', 'data': {'username': '', 'password': '123456'}, 'resp': {'code': 400, 'message': '用户不名能为空'}}" ]
       }, {
-        "name" : "test_service_info[-1418816972-expect2]",
-        "uid" : "37e657c3ddaa506c",
-        "parentUid" : "b535f8a8e506c8fec605cbe9f3a9e37d",
+        "name" : "test_phone[手机号码归属地查询接口:正确请求]",
+        "uid" : "fe282202c3e70717",
+        "parentUid" : "5a17eec2bf54c54c451b29e765b07f00",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630847759450,
+          "stop" : 1630847759450,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '正确参数,返回json 数据', 'data': {'phone': '13291870920', 'type': 'json'}, 'resp': {'resultcode': '200', 'reason': 'Return Successd!', 'result': '杭州', 'error_code': 0}}" ]
+      }, {
+        "name" : "test_service_info[data3]",
+        "uid" : "ae4f6972343d6429",
+        "parentUid" : "5a17eec2bf54c54c451b29e765b07f00",
         "status" : "passed",
         "time" : {
-          "start" : 1629991511238,
-          "stop" : 1629991511318,
-          "duration" : 80
+          "start" : 1630847760044,
+          "stop" : 1630847760091,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号与密码错误', 'data': {'username': '20200015', 'password': '34343434'}, 'resp': {'code': 400, 'message': '密码错误'}}" ]
+      }, {
+        "name" : "test_service_info[排序参数：空]",
+        "uid" : "ffaa41c30994c284",
+        "parentUid" : "5a17eec2bf54c54c451b29e765b07f00",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630847759435,
+          "stop" : 1630847759435,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "''", "'1418816972'" ]
       }, {
-        "name" : "test_service_info[data3]",
-        "uid" : "92876c814663693d",
-        "parentUid" : "b535f8a8e506c8fec605cbe9f3a9e37d",
-        "status" : "broken",
+        "name" : "test_constellation_info[data1]",
+        "uid" : "6ff557e116523975",
+        "parentUid" : "5a17eec2bf54c54c451b29e765b07f00",
+        "status" : "failed",
         "time" : {
-          "start" : 1629991511728,
-          "stop" : 1629991511766,
-          "duration" : 38
+          "start" : 1630847759185,
+          "stop" : 1630847759216,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '异常测试：星座字段空', 'data': {'consName': '', 'type': 'today'}, 'resp': {'resultcode': '201', 'reason': 'Return Successd!', 'result': 'NAME ERROR!', 'error_code': 0}}" ]
+      }, {
+        "name" : "test_service_info[data0]",
+        "uid" : "dfb555ab62e379b9",
+        "parentUid" : "5a17eec2bf54c54c451b29e765b07f00",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630847759497,
+          "stop" : 1630847759497,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号与密码正确', 'data': {'username': '20200015', 'password': '123456'}, 'resp': {'code': 200, 'message': '登录成功'}}" ]
+      }, {
+        "name" : "test_service_info[data2]",
+        "uid" : "204199aec52829d2",
+        "parentUid" : "5a17eec2bf54c54c451b29e765b07f00",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630847759497,
+          "stop" : 1630847759497,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '密码为空，账号正确', 'data': {'username': '20200015', 'password': ''}, 'resp': {'code': 4, 'message': '密码错误'}}" ]
+      }, {
+        "name" : "test_constellation_info[data0]",
+        "uid" : "1ccbdc1a3e22b895",
+        "parentUid" : "5a17eec2bf54c54c451b29e765b07f00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630847759029,
+          "stop" : 1630847759154,
+          "duration" : 125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '正确参数,返回json 数据', 'data': {'consName': '水瓶座', 'type': 'today'}, 'resp': {'resultcode': '200', 'reason': 'Return Successd!', 'result': '水瓶座', 'error_code': 0}}" ]
+      }, {
+        "name" : "test_service_info[正常访问]",
+        "uid" : "a24c816740c9b17f",
+        "parentUid" : "5a17eec2bf54c54c451b29e765b07f00",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630847759435,
+          "stop" : 1630847759435,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "'desc'", "'1418816972'" ]
+      }, {
+        "name" : "test_service_info[data4]",
+        "uid" : "9466e0804336d2de",
+        "parentUid" : "5a17eec2bf54c54c451b29e765b07f00",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630847759497,
+          "stop" : 1630847759497,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'detail': '账号错误', 'data': {'username': '2020001', 'password': '34343434'}, 'resp': {'code': 400, 'message': '用户名不存在'}}" ]
       }, {
-        "name" : "test_service_info[服务详情]",
-        "uid" : "1e190c2646dba2f0",
-        "parentUid" : "b535f8a8e506c8fec605cbe9f3a9e37d",
+        "name" : "test_service_info[-1418816972-expect2]",
+        "uid" : "1e0dbbe492f18e5c",
+        "parentUid" : "5a17eec2bf54c54c451b29e765b07f00",
         "status" : "passed",
         "time" : {
-          "start" : 1629991511806,
-          "stop" : 1629991511899,
-          "duration" : 93
+          "start" : 1630847759716,
+          "stop" : 1630847759825,
+          "duration" : 109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "''", "'1418816972'" ]
+      }, {
+        "name" : "test_service_info[data2]",
+        "uid" : "7bda57032f71f837",
+        "parentUid" : "5a17eec2bf54c54c451b29e765b07f00",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630847759982,
+          "stop" : 1630847760029,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '密码为空，账号正确', 'data': {'username': '20200015', 'password': ''}, 'resp': {'code': 4, 'message': '密码错误'}}" ]
+      }, {
+        "name" : "test_News_info",
+        "uid" : "d90c77f7cb5513c3",
+        "parentUid" : "5a17eec2bf54c54c451b29e765b07f00",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630847759435,
+          "stop" : 1630847759435,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_service_info[data3]",
+        "uid" : "f14d0d2bdc5dfcd4",
+        "parentUid" : "5a17eec2bf54c54c451b29e765b07f00",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630847759513,
+          "stop" : 1630847759513,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号与密码错误', 'data': {'username': '20200015', 'password': '34343434'}, 'resp': {'code': 400, 'message': '密码错误'}}" ]
+      }, {
+        "name" : "test_service_info[data4]",
+        "uid" : "661fa688b9065634",
+        "parentUid" : "5a17eec2bf54c54c451b29e765b07f00",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630847759513,
+          "stop" : 1630847759513,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号错误', 'data': {'username': '2020001', 'password': '34343434'}, 'resp': {'code': 400, 'message': '用户名不存在'}}" ]
+      }, {
+        "name" : "test_phone[手机号为空，异常校验]",
+        "uid" : "c2e1ccadbe05c204",
+        "parentUid" : "5a17eec2bf54c54c451b29e765b07f00",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630847759466,
+          "stop" : 1630847759466,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '手机号为空：错误提示', 'data': {'phone': '', 'type': ''}, 'resp': {'resultcode': '201', 'reason': 'The phone number can not be empty!', 'result': None, 'error_code': 201101}}" ]
+      }, {
+        "name" : "test_constellation_info[data2]",
+        "uid" : "ce46ae7c917de581",
+        "parentUid" : "5a17eec2bf54c54c451b29e765b07f00",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630847759388,
+          "stop" : 1630847759419,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '异常测试：type字段空', 'data': {'consName': '水瓶座', 'type': ''}, 'resp': {'resultcode': '201', 'reason': 'Return Successd!', 'result': 'null', 'error_code': 0}}" ]
+      }, {
+        "name" : "test_service_info[data3]",
+        "uid" : "c72af56f53d9b077",
+        "parentUid" : "5a17eec2bf54c54c451b29e765b07f00",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630847759497,
+          "stop" : 1630847759497,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号与密码错误', 'data': {'username': '20200015', 'password': '34343434'}, 'resp': {'code': 400, 'message': '密码错误'}}" ]
+      }, {
+        "name" : "test_service_info[时间参数：空]",
+        "uid" : "5576bcd4780113a8",
+        "parentUid" : "5a17eec2bf54c54c451b29e765b07f00",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630847759435,
+          "stop" : 1630847759435,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': '必须为10位时间戳或时间范围错误', 'result': 'None', 'error_code': 209501}", "'desc'", "''" ]
+      }, {
+        "name" : "test_service_info[desc-1418816972-expect0]",
+        "uid" : "f7227adbd5bf46e8",
+        "parentUid" : "5a17eec2bf54c54c451b29e765b07f00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630847759529,
+          "stop" : 1630847759638,
+          "duration" : 109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "'desc'", "'1418816972'" ]
+      }, {
+        "name" : "test_service_info[data2]",
+        "uid" : "69dec6882a8d4d34",
+        "parentUid" : "5a17eec2bf54c54c451b29e765b07f00",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630847759513,
+          "stop" : 1630847759513,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '密码为空，账号正确', 'data': {'username': '20200015', 'password': ''}, 'resp': {'code': 4, 'message': '密码错误'}}" ]
+      }, {
+        "name" : "test_service_info[data4]",
+        "uid" : "651c2aeb86864ae0",
+        "parentUid" : "5a17eec2bf54c54c451b29e765b07f00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630847760107,
+          "stop" : 1630847760154,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号错误', 'data': {'username': '2020001', 'password': '34343434'}, 'resp': {'code': 400, 'message': '用户名不存在'}}" ]
+      }, {
+        "name" : "test_phone[返回类型为空，默认json正确请求]",
+        "uid" : "b6f65913c6cb6166",
+        "parentUid" : "5a17eec2bf54c54c451b29e765b07f00",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630847759450,
+          "stop" : 1630847759466,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '正确参数(默认) 返回json 数据', 'data': {'phone': '13291870920', 'type': ''}, 'resp': {'resultcode': '200', 'reason': 'Return Successd!', 'result': '杭州', 'error_code': 0}}" ]
+      }, {
+        "name" : "test_service_info[服务详情]",
+        "uid" : "2d17850be5aa5d6d",
+        "parentUid" : "5a17eec2bf54c54c451b29e765b07f00",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630847759513,
+          "stop" : 1630847759513,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
       }, {
+        "name" : "test_service_info[data1]",
+        "uid" : "8380d5754f88caf5",
+        "parentUid" : "5a17eec2bf54c54c451b29e765b07f00",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630847759904,
+          "stop" : 1630847759966,
+          "duration" : 62
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号为空，密码正确', 'data': {'username': '', 'password': '123456'}, 'resp': {'code': 400, 'message': '用户不名能为空'}}" ]
+      }, {
+        "name" : "test_service_info[data0]",
+        "uid" : "55300f03ad941a58",
+        "parentUid" : "5a17eec2bf54c54c451b29e765b07f00",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630847759482,
+          "stop" : 1630847759482,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号与密码正确', 'data': {'username': '20200015', 'password': '123456'}, 'resp': {'code': 200, 'message': '登录成功'}}" ]
+      } ],
+      "uid" : "5a17eec2bf54c54c451b29e765b07f00"
+    }, {
+      "name" : "9964-MainThread",
+      "children" : [ {
+        "name" : "test_service_info[时间参数：空]",
+        "uid" : "762c6395070b134f",
+        "parentUid" : "4ad32adde719b086d24efbadb9053751",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848003410,
+          "stop" : 1630848003410,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': '必须为10位时间戳或时间范围错误', 'result': 'None', 'error_code': 209501}", "'desc'", "''" ]
+      }, {
+        "name" : "test_service_info[data0]",
+        "uid" : "9d8a8e608bdacbdc",
+        "parentUid" : "4ad32adde719b086d24efbadb9053751",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848003457,
+          "stop" : 1630848003457,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号与密码正确', 'data': {'username': '20200015', 'password': '123456'}, 'resp': {'code': 200, 'message': '登录成功'}}" ]
+      }, {
+        "name" : "test_service_info[data3]",
+        "uid" : "57510b0c74131347",
+        "parentUid" : "4ad32adde719b086d24efbadb9053751",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848003472,
+          "stop" : 1630848003472,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号与密码错误', 'data': {'username': '20200015', 'password': '34343434'}, 'resp': {'code': 400, 'message': '密码错误'}}" ]
+      }, {
+        "name" : "test_service_info[正常访问]",
+        "uid" : "ade0bdaf390b90bb",
+        "parentUid" : "4ad32adde719b086d24efbadb9053751",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848003410,
+          "stop" : 1630848003410,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "'desc'", "'1418816972'" ]
+      }, {
+        "name" : "test_constellation_info[data2]",
+        "uid" : "da4e843756731a51",
+        "parentUid" : "4ad32adde719b086d24efbadb9053751",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630848003363,
+          "stop" : 1630848003394,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '异常测试：type字段空', 'data': {'consName': '水瓶座', 'type': ''}, 'resp': {'resultcode': '201', 'reason': 'Return Successd!', 'result': 'null', 'error_code': 0}}" ]
+      }, {
+        "name" : "test_service_info[data4]",
+        "uid" : "3afdff97fa720954",
+        "parentUid" : "4ad32adde719b086d24efbadb9053751",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848003488,
+          "stop" : 1630848003488,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号错误', 'data': {'username': '2020001', 'password': '34343434'}, 'resp': {'code': 400, 'message': '用户名不存在'}}" ]
+      }, {
         "name" : "test_service_info[data2]",
-        "uid" : "8b71ea6060b6ef8a",
-        "parentUid" : "b535f8a8e506c8fec605cbe9f3a9e37d",
+        "uid" : "cbdf2a15e1f4fac1",
+        "parentUid" : "4ad32adde719b086d24efbadb9053751",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848003488,
+          "stop" : 1630848003488,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '密码为空，账号正确', 'data': {'username': '20200015', 'password': ''}, 'resp': {'code': 4, 'message': '密码错误'}}" ]
+      }, {
+        "name" : "test_service_info[data1]",
+        "uid" : "d84fa605e12ce829",
+        "parentUid" : "4ad32adde719b086d24efbadb9053751",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848003488,
+          "stop" : 1630848003488,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号为空，密码正确', 'data': {'username': '', 'password': '123456'}, 'resp': {'code': 400, 'message': '用户不名能为空'}}" ]
+      }, {
+        "name" : "test_phone[返回类型为空，默认json正确请求]",
+        "uid" : "99267f87e8c97adf",
+        "parentUid" : "4ad32adde719b086d24efbadb9053751",
         "status" : "broken",
         "time" : {
-          "start" : 1629991511670,
-          "stop" : 1629991511709,
-          "duration" : 39
+          "start" : 1630848003441,
+          "stop" : 1630848003441,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '正确参数(默认) 返回json 数据', 'data': {'phone': '13291870920', 'type': ''}, 'resp': {'resultcode': '200', 'reason': 'Return Successd!', 'result': '杭州', 'error_code': 0}}" ]
+      }, {
+        "name" : "test_constellation_info[data1]",
+        "uid" : "d8f83864a8289a3c",
+        "parentUid" : "4ad32adde719b086d24efbadb9053751",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630848003191,
+          "stop" : 1630848003222,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '异常测试：星座字段空', 'data': {'consName': '', 'type': 'today'}, 'resp': {'resultcode': '201', 'reason': 'Return Successd!', 'result': 'NAME ERROR!', 'error_code': 0}}" ]
+      }, {
+        "name" : "test_service_info[排序参数：空]",
+        "uid" : "bcd071b5046054cd",
+        "parentUid" : "4ad32adde719b086d24efbadb9053751",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848003410,
+          "stop" : 1630848003410,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "''", "'1418816972'" ]
+      }, {
+        "name" : "test_service_info[服务详情]",
+        "uid" : "701e263a6ff0ce37",
+        "parentUid" : "4ad32adde719b086d24efbadb9053751",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848003488,
+          "stop" : 1630848003488,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
+      }, {
+        "name" : "test_service_info[data4]",
+        "uid" : "b65c80db1ebeebe5",
+        "parentUid" : "4ad32adde719b086d24efbadb9053751",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848003472,
+          "stop" : 1630848003472,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号错误', 'data': {'username': '2020001', 'password': '34343434'}, 'resp': {'code': 400, 'message': '用户名不存在'}}" ]
+      }, {
+        "name" : "test_service_info[data3]",
+        "uid" : "b42fb1d289eb31cd",
+        "parentUid" : "4ad32adde719b086d24efbadb9053751",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848003488,
+          "stop" : 1630848003488,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号与密码错误', 'data': {'username': '20200015', 'password': '34343434'}, 'resp': {'code': 400, 'message': '密码错误'}}" ]
+      }, {
+        "name" : "test_constellation_info[data0]",
+        "uid" : "75289b5e2bbe98a6",
+        "parentUid" : "4ad32adde719b086d24efbadb9053751",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630848003113,
+          "stop" : 1630848003191,
+          "duration" : 78
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '正确参数,返回json 数据', 'data': {'consName': '水瓶座', 'type': 'today'}, 'resp': {'resultcode': '200', 'reason': 'Return Successd!', 'result': '水瓶座', 'error_code': 0}}" ]
+      }, {
+        "name" : "test_phone[手机号为空，异常校验]",
+        "uid" : "334810ef1bfb5077",
+        "parentUid" : "4ad32adde719b086d24efbadb9053751",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630848003457,
+          "stop" : 1630848003457,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '手机号为空：错误提示', 'data': {'phone': '', 'type': ''}, 'resp': {'resultcode': '201', 'reason': 'The phone number can not be empty!', 'result': None, 'error_code': 201101}}" ]
+      }, {
+        "name" : "test_phone[手机号码归属地查询接口:正确请求]",
+        "uid" : "db390a538229e89b",
+        "parentUid" : "4ad32adde719b086d24efbadb9053751",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630848003425,
+          "stop" : 1630848003425,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '正确参数,返回json 数据', 'data': {'phone': '13291870920', 'type': 'json'}, 'resp': {'resultcode': '200', 'reason': 'Return Successd!', 'result': '杭州', 'error_code': 0}}" ]
+      }, {
+        "name" : "test_service_info[data2]",
+        "uid" : "4060e487e2a02c85",
+        "parentUid" : "4ad32adde719b086d24efbadb9053751",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848003472,
+          "stop" : 1630848003472,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '密码为空，账号正确', 'data': {'username': '20200015', 'password': ''}, 'resp': {'code': 4, 'message': '密码错误'}}" ]
+      }, {
+        "name" : "test_News_info",
+        "uid" : "c64b3b7564b2ad69",
+        "parentUid" : "4ad32adde719b086d24efbadb9053751",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848003425,
+          "stop" : 1630848003425,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_service_info[data0]",
+        "uid" : "51e5650800b506e1",
+        "parentUid" : "4ad32adde719b086d24efbadb9053751",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848003472,
+          "stop" : 1630848003472,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号与密码正确', 'data': {'username': '20200015', 'password': '123456'}, 'resp': {'code': 200, 'message': '登录成功'}}" ]
+      }, {
+        "name" : "test_service_info[data1]",
+        "uid" : "f5d1d7ba1861f65e",
+        "parentUid" : "4ad32adde719b086d24efbadb9053751",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848003472,
+          "stop" : 1630848003472,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号为空，密码正确', 'data': {'username': '', 'password': '123456'}, 'resp': {'code': 400, 'message': '用户不名能为空'}}" ]
+      } ],
+      "uid" : "4ad32adde719b086d24efbadb9053751"
+    }, {
+      "name" : "12060-MainThread",
+      "children" : [ {
+        "name" : "test_service_info[data4]",
+        "uid" : "f51733aa8699f731",
+        "parentUid" : "bf5f077ca5ce6257c3641e54b51b2c08",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630847812159,
+          "stop" : 1630847812159,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号错误', 'data': {'username': '2020001', 'password': '34343434'}, 'resp': {'code': 400, 'message': '用户名不存在'}}" ]
+      }, {
+        "name" : "test_service_info[data1]",
+        "uid" : "86849c7fb13ada38",
+        "parentUid" : "bf5f077ca5ce6257c3641e54b51b2c08",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630847812128,
+          "stop" : 1630847812128,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号为空，密码正确', 'data': {'username': '', 'password': '123456'}, 'resp': {'code': 400, 'message': '用户不名能为空'}}" ]
+      }, {
+        "name" : "test_constellation_info[data0]",
+        "uid" : "e8f64b01229aa913",
+        "parentUid" : "bf5f077ca5ce6257c3641e54b51b2c08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630847811769,
+          "stop" : 1630847811847,
+          "duration" : 78
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '正确参数,返回json 数据', 'data': {'consName': '水瓶座', 'type': 'today'}, 'resp': {'resultcode': '200', 'reason': 'Return Successd!', 'result': '水瓶座', 'error_code': 0}}" ]
+      }, {
+        "name" : "test_service_info[正常访问]",
+        "uid" : "e7ad6983b1245480",
+        "parentUid" : "bf5f077ca5ce6257c3641e54b51b2c08",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630847812066,
+          "stop" : 1630847812066,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "'desc'", "'1418816972'" ]
+      }, {
+        "name" : "test_service_info[排序参数：空]",
+        "uid" : "c70b5a399376b99c",
+        "parentUid" : "bf5f077ca5ce6257c3641e54b51b2c08",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630847812066,
+          "stop" : 1630847812066,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "''", "'1418816972'" ]
+      }, {
+        "name" : "test_service_info[data0]",
+        "uid" : "532728151ecf8833",
+        "parentUid" : "bf5f077ca5ce6257c3641e54b51b2c08",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630847812144,
+          "stop" : 1630847812144,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号与密码正确', 'data': {'username': '20200015', 'password': '123456'}, 'resp': {'code': 200, 'message': '登录成功'}}" ]
+      }, {
+        "name" : "test_service_info[data2]",
+        "uid" : "e0d8b8d0d68f8f65",
+        "parentUid" : "bf5f077ca5ce6257c3641e54b51b2c08",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630847812159,
+          "stop" : 1630847812159,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '密码为空，账号正确', 'data': {'username': '20200015', 'password': ''}, 'resp': {'code': 4, 'message': '密码错误'}}" ]
+      }, {
+        "name" : "test_service_info[data4]",
+        "uid" : "d7628771c0b16079",
+        "parentUid" : "bf5f077ca5ce6257c3641e54b51b2c08",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630847812144,
+          "stop" : 1630847812144,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号错误', 'data': {'username': '2020001', 'password': '34343434'}, 'resp': {'code': 400, 'message': '用户名不存在'}}" ]
+      }, {
+        "name" : "test_phone[手机号码归属地查询接口:正确请求]",
+        "uid" : "9803000b963d453c",
+        "parentUid" : "bf5f077ca5ce6257c3641e54b51b2c08",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630847812081,
+          "stop" : 1630847812081,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '正确参数,返回json 数据', 'data': {'phone': '13291870920', 'type': 'json'}, 'resp': {'resultcode': '200', 'reason': 'Return Successd!', 'result': '杭州', 'error_code': 0}}" ]
+      }, {
+        "name" : "test_service_info[data0]",
+        "uid" : "ec75aa235955d520",
+        "parentUid" : "bf5f077ca5ce6257c3641e54b51b2c08",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630847812128,
+          "stop" : 1630847812128,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号与密码正确', 'data': {'username': '20200015', 'password': '123456'}, 'resp': {'code': 200, 'message': '登录成功'}}" ]
+      }, {
+        "name" : "test_constellation_info[data2]",
+        "uid" : "99de380d792c5073",
+        "parentUid" : "bf5f077ca5ce6257c3641e54b51b2c08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630847812019,
+          "stop" : 1630847812050,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '异常测试：type字段空', 'data': {'consName': '水瓶座', 'type': ''}, 'resp': {'resultcode': '201', 'reason': 'Return Successd!', 'result': 'null', 'error_code': 0}}" ]
+      }, {
+        "name" : "test_phone[手机号为空，异常校验]",
+        "uid" : "b7f1f76174762ff1",
+        "parentUid" : "bf5f077ca5ce6257c3641e54b51b2c08",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630847812112,
+          "stop" : 1630847812112,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '手机号为空：错误提示', 'data': {'phone': '', 'type': ''}, 'resp': {'resultcode': '201', 'reason': 'The phone number can not be empty!', 'result': None, 'error_code': 201101}}" ]
+      }, {
+        "name" : "test_constellation_info[data1]",
+        "uid" : "27b1842ae4c4e39d",
+        "parentUid" : "bf5f077ca5ce6257c3641e54b51b2c08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630847811847,
+          "stop" : 1630847811878,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '异常测试：星座字段空', 'data': {'consName': '', 'type': 'today'}, 'resp': {'resultcode': '201', 'reason': 'Return Successd!', 'result': 'NAME ERROR!', 'error_code': 0}}" ]
+      }, {
+        "name" : "test_service_info[服务详情]",
+        "uid" : "72afbcbc834f4a46",
+        "parentUid" : "bf5f077ca5ce6257c3641e54b51b2c08",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630847812159,
+          "stop" : 1630847812159,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
+      }, {
+        "name" : "test_service_info[data1]",
+        "uid" : "387e0c45ddd4e6d3",
+        "parentUid" : "bf5f077ca5ce6257c3641e54b51b2c08",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630847812144,
+          "stop" : 1630847812144,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号为空，密码正确', 'data': {'username': '', 'password': '123456'}, 'resp': {'code': 400, 'message': '用户不名能为空'}}" ]
+      }, {
+        "name" : "test_service_info[data2]",
+        "uid" : "fa8aac9a9e42c5d2",
+        "parentUid" : "bf5f077ca5ce6257c3641e54b51b2c08",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630847812128,
+          "stop" : 1630847812128,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '密码为空，账号正确', 'data': {'username': '20200015', 'password': ''}, 'resp': {'code': 4, 'message': '密码错误'}}" ]
+      }, {
+        "name" : "test_service_info[时间参数：空]",
+        "uid" : "451bf75c666d0027",
+        "parentUid" : "bf5f077ca5ce6257c3641e54b51b2c08",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630847812066,
+          "stop" : 1630847812066,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': '必须为10位时间戳或时间范围错误', 'result': 'None', 'error_code': 209501}", "'desc'", "''" ]
+      }, {
+        "name" : "test_service_info[data3]",
+        "uid" : "7d5ea76750590b9",
+        "parentUid" : "bf5f077ca5ce6257c3641e54b51b2c08",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630847812128,
+          "stop" : 1630847812128,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号与密码错误', 'data': {'username': '20200015', 'password': '34343434'}, 'resp': {'code': 400, 'message': '密码错误'}}" ]
+      }, {
+        "name" : "test_phone[返回类型为空，默认json正确请求]",
+        "uid" : "1b52f9191e6217b6",
+        "parentUid" : "bf5f077ca5ce6257c3641e54b51b2c08",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630847812097,
+          "stop" : 1630847812097,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '正确参数(默认) 返回json 数据', 'data': {'phone': '13291870920', 'type': ''}, 'resp': {'resultcode': '200', 'reason': 'Return Successd!', 'result': '杭州', 'error_code': 0}}" ]
+      }, {
+        "name" : "test_service_info[data3]",
+        "uid" : "bffcbae4965931dc",
+        "parentUid" : "bf5f077ca5ce6257c3641e54b51b2c08",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630847812159,
+          "stop" : 1630847812159,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号与密码错误', 'data': {'username': '20200015', 'password': '34343434'}, 'resp': {'code': 400, 'message': '密码错误'}}" ]
+      }, {
+        "name" : "test_News_info",
+        "uid" : "5e761a753d7abb3e",
+        "parentUid" : "bf5f077ca5ce6257c3641e54b51b2c08",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630847812066,
+          "stop" : 1630847812066,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bf5f077ca5ce6257c3641e54b51b2c08"
+    }, {
+      "name" : "3484-MainThread",
+      "children" : [ {
+        "name" : "test_News_info",
+        "uid" : "cefc6e4320ed6a07",
+        "parentUid" : "8b1a702e5c689538f799c6260b9f5ca2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630763806791,
+          "stop" : 1630763806836,
+          "duration" : 45
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_service_info[时间参数：空]",
+        "uid" : "31d6ced25e92ead6",
+        "parentUid" : "8b1a702e5c689538f799c6260b9f5ca2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630763806634,
+          "stop" : 1630763806681,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': '必须为10位时间戳或时间范围错误', 'result': 'None', 'error_code': 209501}", "'desc'", "''" ]
+      }, {
+        "name" : "test_service_info[正常访问]",
+        "uid" : "b5253fc3ff6940b4",
+        "parentUid" : "8b1a702e5c689538f799c6260b9f5ca2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630763806506,
+          "stop" : 1630763806625,
+          "duration" : 119
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "'desc'", "'1418816972'" ]
+      }, {
+        "name" : "test_service_info[data3]",
+        "uid" : "fe79e2dd800977fc",
+        "parentUid" : "8b1a702e5c689538f799c6260b9f5ca2",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630763807059,
+          "stop" : 1630763807059,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号与密码错误', 'data': {'username': '20200015', 'password': '34343434'}, 'resp': {'code': 400, 'message': '密码错误'}}" ]
+      }, {
+        "name" : "test_phone[手机号为空，异常校验]",
+        "uid" : "86afeed5ae769040",
+        "parentUid" : "8b1a702e5c689538f799c6260b9f5ca2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630763806989,
+          "stop" : 1630763807029,
+          "duration" : 40
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "{'resultcode': '201', 'reason': 'The phone number can not be empty!', 'result': None, 'error_code': 201101}", "''" ]
+      }, {
+        "name" : "test_service_info[-1418816972-expect2]",
+        "uid" : "374d6db24ab00c4d",
+        "parentUid" : "8b1a702e5c689538f799c6260b9f5ca2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630763807319,
+          "stop" : 1630763807411,
+          "duration" : 92
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "''", "'1418816972'" ]
+      }, {
+        "name" : "test_phone[返回类型为空，默认json正确请求]",
+        "uid" : "c9e75485f3d6d700",
+        "parentUid" : "8b1a702e5c689538f799c6260b9f5ca2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630763806926,
+          "stop" : 1630763806964,
+          "duration" : 38
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "{'resultcode': '200', 'reason': 'Return Successd!', 'result': '杭州', 'error_code': 0}", "'13291870920'" ]
+      }, {
+        "name" : "test_service_info[data3]",
+        "uid" : "420f53188c71c355",
+        "parentUid" : "8b1a702e5c689538f799c6260b9f5ca2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630763808064,
+          "stop" : 1630763808205,
+          "duration" : 141
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'detail': '账号与密码错误', 'data': {'username': '20200015', 'password': '34343434'}, 'resp': {'code': 400, 'message': '密码错误'}}" ]
       }, {
         "name" : "test_service_info[data1]",
-        "uid" : "d82004bb38ab0881",
-        "parentUid" : "b535f8a8e506c8fec605cbe9f3a9e37d",
-        "status" : "broken",
+        "uid" : "1ca4a6856fa049ea",
+        "parentUid" : "8b1a702e5c689538f799c6260b9f5ca2",
+        "status" : "skipped",
         "time" : {
-          "start" : 1629991511585,
-          "stop" : 1629991511630,
-          "duration" : 45
+          "start" : 1630763807050,
+          "stop" : 1630763807050,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号为空，密码正确', 'data': {'username': '', 'password': '123456'}, 'resp': {'code': 400, 'message': '用户不名能为空'}}" ]
+      }, {
+        "name" : "test_phone[手机号码归属地查询接口:正确请求]",
+        "uid" : "3994d331af022647",
+        "parentUid" : "8b1a702e5c689538f799c6260b9f5ca2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630763806841,
+          "stop" : 1630763806906,
+          "duration" : 65
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'json'", "{'resultcode': '200', 'reason': 'Return Successd!', 'result': '杭州', 'error_code': 0}", "'13291870920'" ]
+      }, {
+        "name" : "test_service_info[data4]",
+        "uid" : "ab302f8f236fba7e",
+        "parentUid" : "8b1a702e5c689538f799c6260b9f5ca2",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630763807062,
+          "stop" : 1630763807062,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号错误', 'data': {'username': '2020001', 'password': '34343434'}, 'resp': {'code': 400, 'message': '用户名不存在'}}" ]
+      }, {
+        "name" : "test_service_info[data2]",
+        "uid" : "622e0d4eff9b7c53",
+        "parentUid" : "8b1a702e5c689538f799c6260b9f5ca2",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630763807055,
+          "stop" : 1630763807055,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'detail': '密码为空，账号正确', 'data': {'username': '20200015', 'password': ''}, 'resp': {'code': 4, 'message': '密码错误'}}" ]
+      }, {
+        "name" : "test_service_info[desc-1418816972-expect0]",
+        "uid" : "6c135ae7a787517c",
+        "parentUid" : "8b1a702e5c689538f799c6260b9f5ca2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630763807128,
+          "stop" : 1630763807223,
+          "duration" : 95
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "'desc'", "'1418816972'" ]
+      }, {
+        "name" : "test_service_info[desc--expect1]",
+        "uid" : "9b5e0e8c7e18271f",
+        "parentUid" : "8b1a702e5c689538f799c6260b9f5ca2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630763807244,
+          "stop" : 1630763807307,
+          "duration" : 63
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': '必须为10位时间戳或时间范围错误', 'result': 'None', 'error_code': 209501}", "'desc'", "''" ]
+      }, {
+        "name" : "test_constellation_info[星座运势查询接口]",
+        "uid" : "83a30d19c271c87f",
+        "parentUid" : "8b1a702e5c689538f799c6260b9f5ca2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630763806278,
+          "stop" : 1630763806497,
+          "duration" : 219
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'date': 20210825, 'name': '天秤座', 'resultcode': '200', 'error_code': 0}" ]
+      }, {
+        "name" : "test_service_info[data4]",
+        "uid" : "39c2f1b60861ede4",
+        "parentUid" : "8b1a702e5c689538f799c6260b9f5ca2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630763808226,
+          "stop" : 1630763808386,
+          "duration" : 160
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号错误', 'data': {'username': '2020001', 'password': '34343434'}, 'resp': {'code': 400, 'message': '用户名不存在'}}" ]
+      }, {
+        "name" : "test_service_info[data0]",
+        "uid" : "112599088e3f00d6",
+        "parentUid" : "8b1a702e5c689538f799c6260b9f5ca2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630763807440,
+          "stop" : 1630763807676,
+          "duration" : 236
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号与密码正确', 'data': {'username': '20200015', 'password': '123456'}, 'resp': {'code': 200, 'message': '登录成功'}}" ]
+      }, {
+        "name" : "test_service_info[data1]",
+        "uid" : "75ac6b1341f29e6a",
+        "parentUid" : "8b1a702e5c689538f799c6260b9f5ca2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630763807683,
+          "stop" : 1630763807739,
+          "duration" : 56
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号为空，密码正确', 'data': {'username': '', 'password': '123456'}, 'resp': {'code': 400, 'message': '用户不名能为空'}}" ]
+      }, {
+        "name" : "test_service_info[服务详情]",
+        "uid" : "ef65e1adbae6384e",
+        "parentUid" : "8b1a702e5c689538f799c6260b9f5ca2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630763807069,
+          "stop" : 1630763807109,
+          "duration" : 40
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
+      }, {
+        "name" : "test_service_info[data2]",
+        "uid" : "89fe6ff5e08306ee",
+        "parentUid" : "8b1a702e5c689538f799c6260b9f5ca2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630763807873,
+          "stop" : 1630763808037,
+          "duration" : 164
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '密码为空，账号正确', 'data': {'username': '20200015', 'password': ''}, 'resp': {'code': 4, 'message': '密码错误'}}" ]
+      }, {
+        "name" : "test_service_info[排序参数：空]",
+        "uid" : "94691c134ece4fa0",
+        "parentUid" : "8b1a702e5c689538f799c6260b9f5ca2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630763806689,
+          "stop" : 1630763806781,
+          "duration" : 92
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "''", "'1418816972'" ]
+      }, {
+        "name" : "test_service_info[data0]",
+        "uid" : "37bfd8863f35f047",
+        "parentUid" : "8b1a702e5c689538f799c6260b9f5ca2",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630763807045,
+          "stop" : 1630763807045,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号与密码正确', 'data': {'username': '20200015', 'password': '123456'}, 'resp': {'code': 200, 'message': '登录成功'}}" ]
       } ],
-      "uid" : "b535f8a8e506c8fec605cbe9f3a9e37d"
+      "uid" : "8b1a702e5c689538f799c6260b9f5ca2"
+    }, {
+      "name" : "8316-MainThread",
+      "children" : [ {
+        "name" : "test_service_info[data2]",
+        "uid" : "f8341d41ee458dd5",
+        "parentUid" : "224e901c9bee7b0a1edac3f0b9cc1c17",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848151103,
+          "stop" : 1630848151103,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '密码为空，账号正确', 'data': {'username': '20200015', 'password': ''}, 'resp': {'code': 4, 'message': '密码错误'}}" ]
+      }, {
+        "name" : "test_service_info[data0]",
+        "uid" : "3ed05497c8df1363",
+        "parentUid" : "224e901c9bee7b0a1edac3f0b9cc1c17",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848151088,
+          "stop" : 1630848151088,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号与密码正确', 'data': {'username': '20200015', 'password': '123456'}, 'resp': {'code': 200, 'message': '登录成功'}}" ]
+      }, {
+        "name" : "test_News_info",
+        "uid" : "389931f415d889c1",
+        "parentUid" : "224e901c9bee7b0a1edac3f0b9cc1c17",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848150853,
+          "stop" : 1630848150853,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_phone[手机号码归属地查询接口:正确请求]",
+        "uid" : "ee03ad8383390ed9",
+        "parentUid" : "224e901c9bee7b0a1edac3f0b9cc1c17",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630848150853,
+          "stop" : 1630848150963,
+          "duration" : 110
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '正确参数,返回json 数据', 'data': {'phone': '13291870920', 'type': 'json'}, 'resp': {'resultcode': '200', 'reason': 'Return Successd!', 'result': '杭州', 'error_code': 0}}" ]
+      }, {
+        "name" : "test_phone[返回类型为空，默认json正确请求]",
+        "uid" : "9c556c4507c3a5f6",
+        "parentUid" : "224e901c9bee7b0a1edac3f0b9cc1c17",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630848150978,
+          "stop" : 1630848151025,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '正确参数(默认) 返回json 数据', 'data': {'phone': '13291870920', 'type': ''}, 'resp': {'resultcode': '200', 'reason': 'Return Successd!', 'result': '杭州', 'error_code': 0}}" ]
+      }, {
+        "name" : "test_constellation_info[data0]",
+        "uid" : "e60c967f1b38060d",
+        "parentUid" : "224e901c9bee7b0a1edac3f0b9cc1c17",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630848150510,
+          "stop" : 1630848150588,
+          "duration" : 78
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '正确参数,返回json 数据', 'data': {'consName': '水瓶座', 'type': 'today'}, 'resp': {'resultcode': '200', 'reason': 'Return Successd!', 'result': '水瓶座', 'error_code': 0}}" ]
+      }, {
+        "name" : "test_service_info[data4]",
+        "uid" : "962e7a4cd66e3398",
+        "parentUid" : "224e901c9bee7b0a1edac3f0b9cc1c17",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848151103,
+          "stop" : 1630848151103,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号错误', 'data': {'username': '2020001', 'password': '34343434'}, 'resp': {'code': 400, 'message': '用户名不存在'}}" ]
+      }, {
+        "name" : "test_service_info[正常访问]",
+        "uid" : "8c8c20d56d565c8f",
+        "parentUid" : "224e901c9bee7b0a1edac3f0b9cc1c17",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848150838,
+          "stop" : 1630848150838,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "'desc'", "'1418816972'" ]
+      }, {
+        "name" : "test_service_info[data1]",
+        "uid" : "a80942f3a3fc1dde",
+        "parentUid" : "224e901c9bee7b0a1edac3f0b9cc1c17",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848151088,
+          "stop" : 1630848151088,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号为空，密码正确', 'data': {'username': '', 'password': '123456'}, 'resp': {'code': 400, 'message': '用户不名能为空'}}" ]
+      }, {
+        "name" : "test_constellation_info[data2]",
+        "uid" : "ad045486325d063f",
+        "parentUid" : "224e901c9bee7b0a1edac3f0b9cc1c17",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630848150791,
+          "stop" : 1630848150822,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '异常测试：type字段空', 'data': {'consName': '水瓶座', 'type': ''}, 'resp': {'resultcode': '201', 'reason': 'Return Successd!', 'result': 'null', 'error_code': 0}}" ]
+      }, {
+        "name" : "test_service_info[服务详情]",
+        "uid" : "4156a9b595600664",
+        "parentUid" : "224e901c9bee7b0a1edac3f0b9cc1c17",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848151119,
+          "stop" : 1630848151119,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
+      }, {
+        "name" : "test_service_info[时间参数：空]",
+        "uid" : "cb8fe4ba6eef6c91",
+        "parentUid" : "224e901c9bee7b0a1edac3f0b9cc1c17",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848150838,
+          "stop" : 1630848150838,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': '必须为10位时间戳或时间范围错误', 'result': 'None', 'error_code': 209501}", "'desc'", "''" ]
+      }, {
+        "name" : "test_service_info[data4]",
+        "uid" : "110fe1b0bb7912d1",
+        "parentUid" : "224e901c9bee7b0a1edac3f0b9cc1c17",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848151119,
+          "stop" : 1630848151119,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号错误', 'data': {'username': '2020001', 'password': '34343434'}, 'resp': {'code': 400, 'message': '用户名不存在'}}" ]
+      }, {
+        "name" : "test_phone[手机号为空，异常校验]",
+        "uid" : "dae6e8f017815916",
+        "parentUid" : "224e901c9bee7b0a1edac3f0b9cc1c17",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630848151041,
+          "stop" : 1630848151072,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '手机号为空：错误提示', 'data': {'phone': '', 'type': ''}, 'resp': {'resultcode': '201', 'reason': 'The phone number can not be empty!', 'result': None, 'error_code': 201101}}" ]
+      }, {
+        "name" : "test_service_info[排序参数：空]",
+        "uid" : "bf3f566e5ee6b29e",
+        "parentUid" : "224e901c9bee7b0a1edac3f0b9cc1c17",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848150838,
+          "stop" : 1630848150838,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "''", "'1418816972'" ]
+      }, {
+        "name" : "test_constellation_info[data1]",
+        "uid" : "4a6f8270456e01f1",
+        "parentUid" : "224e901c9bee7b0a1edac3f0b9cc1c17",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630848150603,
+          "stop" : 1630848150635,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '异常测试：星座字段空', 'data': {'consName': '', 'type': 'today'}, 'resp': {'resultcode': '201', 'reason': 'Return Successd!', 'result': 'NAME ERROR!', 'error_code': 0}}" ]
+      }, {
+        "name" : "test_service_info[data3]",
+        "uid" : "bc526ecf5e0e302c",
+        "parentUid" : "224e901c9bee7b0a1edac3f0b9cc1c17",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848151119,
+          "stop" : 1630848151119,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号与密码错误', 'data': {'username': '20200015', 'password': '34343434'}, 'resp': {'code': 400, 'message': '密码错误'}}" ]
+      }, {
+        "name" : "test_service_info[data2]",
+        "uid" : "3f1d73dbb4a57a86",
+        "parentUid" : "224e901c9bee7b0a1edac3f0b9cc1c17",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848151088,
+          "stop" : 1630848151088,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '密码为空，账号正确', 'data': {'username': '20200015', 'password': ''}, 'resp': {'code': 4, 'message': '密码错误'}}" ]
+      }, {
+        "name" : "test_service_info[data0]",
+        "uid" : "79bc9c8ee904b1fe",
+        "parentUid" : "224e901c9bee7b0a1edac3f0b9cc1c17",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848151103,
+          "stop" : 1630848151103,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号与密码正确', 'data': {'username': '20200015', 'password': '123456'}, 'resp': {'code': 200, 'message': '登录成功'}}" ]
+      }, {
+        "name" : "test_service_info[data1]",
+        "uid" : "8c6ece34892d2bad",
+        "parentUid" : "224e901c9bee7b0a1edac3f0b9cc1c17",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848151103,
+          "stop" : 1630848151103,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号为空，密码正确', 'data': {'username': '', 'password': '123456'}, 'resp': {'code': 400, 'message': '用户不名能为空'}}" ]
+      }, {
+        "name" : "test_service_info[data3]",
+        "uid" : "b45d834652c4783",
+        "parentUid" : "224e901c9bee7b0a1edac3f0b9cc1c17",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848151088,
+          "stop" : 1630848151088,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号与密码错误', 'data': {'username': '20200015', 'password': '34343434'}, 'resp': {'code': 400, 'message': '密码错误'}}" ]
+      } ],
+      "uid" : "224e901c9bee7b0a1edac3f0b9cc1c17"
+    }, {
+      "name" : "11072-MainThread",
+      "children" : [ {
+        "name" : "test_constellation_info[data0]",
+        "uid" : "2fcf9ec5d0403bf2",
+        "parentUid" : "c0dc038d9fe2ee76d57388a5206ba770",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630848282632,
+          "stop" : 1630848282695,
+          "duration" : 63
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '正确参数,返回json 数据', 'data': {'consName': '水瓶座', 'type': 'today'}, 'resp': {'resultcode': '200', 'reason': 'Return Successd!', 'result': '水瓶座', 'error_code': 0}}" ]
+      }, {
+        "name" : "test_phone[data1]",
+        "uid" : "17c640ee1f06a3bf",
+        "parentUid" : "c0dc038d9fe2ee76d57388a5206ba770",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630848283039,
+          "stop" : 1630848283117,
+          "duration" : 78
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '正确参数(默认) 返回json 数据', 'data': {'phone': '13291870920', 'type': ''}, 'resp': {'resultcode': '200', 'reason': 'Return Successd!', 'result': '杭州', 'error_code': 0}}" ]
+      }, {
+        "name" : "test_service_info[排序参数：空]",
+        "uid" : "74383a5fd9a60d80",
+        "parentUid" : "c0dc038d9fe2ee76d57388a5206ba770",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848282914,
+          "stop" : 1630848282914,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "''", "'1418816972'" ]
+      }, {
+        "name" : "test_constellation_info[data2]",
+        "uid" : "14597fada0ee2d18",
+        "parentUid" : "c0dc038d9fe2ee76d57388a5206ba770",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630848282867,
+          "stop" : 1630848282898,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '异常测试：type字段空', 'data': {'consName': '水瓶座', 'type': ''}, 'resp': {'resultcode': '201', 'reason': 'Return Successd!', 'result': 'null', 'error_code': 0}}" ]
+      }, {
+        "name" : "test_service_info[data1]",
+        "uid" : "18bf4d24656475e8",
+        "parentUid" : "c0dc038d9fe2ee76d57388a5206ba770",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848283195,
+          "stop" : 1630848283195,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号为空，密码正确', 'data': {'username': '', 'password': '123456'}, 'resp': {'code': 400, 'message': '用户不名能为空'}}" ]
+      }, {
+        "name" : "test_phone[data2]",
+        "uid" : "d3b19ae5afa7ca42",
+        "parentUid" : "c0dc038d9fe2ee76d57388a5206ba770",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630848283132,
+          "stop" : 1630848283179,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '手机号为空：错误提示', 'data': {'phone': '', 'type': ''}, 'resp': {'resultcode': '201', 'reason': 'The phone number can not be empty!', 'result': None, 'error_code': 201101}}" ]
+      }, {
+        "name" : "test_service_info[data3]",
+        "uid" : "74ec4594c17ce648",
+        "parentUid" : "c0dc038d9fe2ee76d57388a5206ba770",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848283273,
+          "stop" : 1630848283273,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号与密码错误', 'data': {'username': '20200015', 'password': '34343434'}, 'resp': {'code': 400, 'message': '密码错误'}}" ]
+      }, {
+        "name" : "test_service_info[时间参数：空]",
+        "uid" : "d2156390a79f7060",
+        "parentUid" : "c0dc038d9fe2ee76d57388a5206ba770",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848282914,
+          "stop" : 1630848282914,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': '必须为10位时间戳或时间范围错误', 'result': 'None', 'error_code': 209501}", "'desc'", "''" ]
+      }, {
+        "name" : "test_service_info[data4]",
+        "uid" : "25be3d61d93074f7",
+        "parentUid" : "c0dc038d9fe2ee76d57388a5206ba770",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848283273,
+          "stop" : 1630848283273,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号错误', 'data': {'username': '2020001', 'password': '34343434'}, 'resp': {'code': 400, 'message': '用户名不存在'}}" ]
+      }, {
+        "name" : "test_constellation_info[data1]",
+        "uid" : "8038a4fd5d6af28f",
+        "parentUid" : "c0dc038d9fe2ee76d57388a5206ba770",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630848282695,
+          "stop" : 1630848282726,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '异常测试：星座字段空', 'data': {'consName': '', 'type': 'today'}, 'resp': {'resultcode': '201', 'reason': 'Return Successd!', 'result': 'NAME ERROR!', 'error_code': 0}}" ]
+      }, {
+        "name" : "test_service_info[data0]",
+        "uid" : "e1d50c3e79a12a5e",
+        "parentUid" : "c0dc038d9fe2ee76d57388a5206ba770",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848283242,
+          "stop" : 1630848283242,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号与密码正确', 'data': {'username': '20200015', 'password': '123456'}, 'resp': {'code': 200, 'message': '登录成功'}}" ]
+      }, {
+        "name" : "test_service_info[data0]",
+        "uid" : "f7b2b658fe7dd43b",
+        "parentUid" : "c0dc038d9fe2ee76d57388a5206ba770",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848283179,
+          "stop" : 1630848283179,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号与密码正确', 'data': {'username': '20200015', 'password': '123456'}, 'resp': {'code': 200, 'message': '登录成功'}}" ]
+      }, {
+        "name" : "test_phone[data0]",
+        "uid" : "7c236b47392099c5",
+        "parentUid" : "c0dc038d9fe2ee76d57388a5206ba770",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630848282929,
+          "stop" : 1630848283023,
+          "duration" : 94
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '正确参数,返回json 数据', 'data': {'phone': '13291870920', 'type': 'json'}, 'resp': {'resultcode': '200', 'reason': 'Return Successd!', 'result': '杭州', 'error_code': 0}}" ]
+      }, {
+        "name" : "test_service_info[data1]",
+        "uid" : "8cf79cb01046e418",
+        "parentUid" : "c0dc038d9fe2ee76d57388a5206ba770",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848283257,
+          "stop" : 1630848283257,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号为空，密码正确', 'data': {'username': '', 'password': '123456'}, 'resp': {'code': 400, 'message': '用户不名能为空'}}" ]
+      }, {
+        "name" : "test_service_info[data4]",
+        "uid" : "a89f0e07b65498cc",
+        "parentUid" : "c0dc038d9fe2ee76d57388a5206ba770",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848283242,
+          "stop" : 1630848283242,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号错误', 'data': {'username': '2020001', 'password': '34343434'}, 'resp': {'code': 400, 'message': '用户名不存在'}}" ]
+      }, {
+        "name" : "test_service_info[data2]",
+        "uid" : "ed5e844b1320f6bc",
+        "parentUid" : "c0dc038d9fe2ee76d57388a5206ba770",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848283195,
+          "stop" : 1630848283195,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '密码为空，账号正确', 'data': {'username': '20200015', 'password': ''}, 'resp': {'code': 4, 'message': '密码错误'}}" ]
+      }, {
+        "name" : "test_service_info[data2]",
+        "uid" : "8837a38de8052f3b",
+        "parentUid" : "c0dc038d9fe2ee76d57388a5206ba770",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848283257,
+          "stop" : 1630848283257,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '密码为空，账号正确', 'data': {'username': '20200015', 'password': ''}, 'resp': {'code': 4, 'message': '密码错误'}}" ]
+      }, {
+        "name" : "test_service_info[正常访问]",
+        "uid" : "2fb74cff5d6282da",
+        "parentUid" : "c0dc038d9fe2ee76d57388a5206ba770",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848282914,
+          "stop" : 1630848282914,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': 'Success', 'result': 'content', 'error_code': 0}", "'desc'", "'1418816972'" ]
+      }, {
+        "name" : "test_service_info[data3]",
+        "uid" : "b480028e449a20e8",
+        "parentUid" : "c0dc038d9fe2ee76d57388a5206ba770",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848283242,
+          "stop" : 1630848283242,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'detail': '账号与密码错误', 'data': {'username': '20200015', 'password': '34343434'}, 'resp': {'code': 400, 'message': '密码错误'}}" ]
+      }, {
+        "name" : "test_service_info[服务详情]",
+        "uid" : "22e87dc61a8d3b7",
+        "parentUid" : "c0dc038d9fe2ee76d57388a5206ba770",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848283273,
+          "stop" : 1630848283273,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'reason': '查询成功!', 'error_code': 0}" ]
+      }, {
+        "name" : "test_News_info",
+        "uid" : "a8af5008acecefda",
+        "parentUid" : "c0dc038d9fe2ee76d57388a5206ba770",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1630848282914,
+          "stop" : 1630848282914,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c0dc038d9fe2ee76d57388a5206ba770"
     } ],
     "uid" : "8d6aea4551548a314299e24492556fb2"
   } ]

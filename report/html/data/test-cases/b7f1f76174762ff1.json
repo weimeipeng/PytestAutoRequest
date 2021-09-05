@@ -1,0 +1,183 @@
+{
+  "uid" : "b7f1f76174762ff1",
+  "name" : "test_phone[手机号为空，异常校验]",
+  "fullName" : "TestCase.test_get_phone.Test_Service_Info#test_phone",
+  "historyId" : "661f3cb220b88aa7fac78ece4341a949",
+  "time" : {
+    "start" : 1630847812112,
+    "stop" : 1630847812112,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: get_phone() takes 2 positional arguments but 3 were given",
+  "statusTrace" : "self = <TestCase.test_get_phone.Test_Service_Info object at 0x0000026A34807B48>\ndata = {'data': {'phone': '', 'type': ''}, 'detail': '手机号为空：错误提示', 'resp': {'error_code': 201101, 'reason': 'The phone number can not be empty!', 'result': None, 'resultcode': '201'}}\n\n    @pytest.mark.process\n    @pytest.mark.parametrize('data', testdata,\n                             ids=['手机号码归属地查询接口:正确请求','返回类型为空，默认json正确请求','手机号为空，异常校验'])\n    def test_phone(self, data):\n        self.log.info('%s{%s}' % ((sys._getframe().f_code.co_name, '------开始手机号码归属地查询接口测试-----')))\n        with allure.step('手机号查询接口'):\n>           msg = Api_News_Service().get_phone(data['data']['phone'],data['data']['type'])\nE           TypeError: get_phone() takes 2 positional arguments but 3 were given\n\nTestCase\\test_get_phone.py:26: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "host",
+    "time" : {
+      "start" : 1630847811769,
+      "stop" : 1630847811769,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1630847811769,
+      "stop" : 1630847811769,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1630847811769,
+      "stop" : 1630847811769,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1630847811472,
+      "stop" : 1630847811769,
+      "duration" : 297
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: get_phone() takes 2 positional arguments but 3 were given",
+    "statusTrace" : "self = <TestCase.test_get_phone.Test_Service_Info object at 0x0000026A34807B48>\ndata = {'data': {'phone': '', 'type': ''}, 'detail': '手机号为空：错误提示', 'resp': {'error_code': 201101, 'reason': 'The phone number can not be empty!', 'result': None, 'resultcode': '201'}}\n\n    @pytest.mark.process\n    @pytest.mark.parametrize('data', testdata,\n                             ids=['手机号码归属地查询接口:正确请求','返回类型为空，默认json正确请求','手机号为空，异常校验'])\n    def test_phone(self, data):\n        self.log.info('%s{%s}' % ((sys._getframe().f_code.co_name, '------开始手机号码归属地查询接口测试-----')))\n        with allure.step('手机号查询接口'):\n>           msg = Api_News_Service().get_phone(data['data']['phone'],data['data']['type'])\nE           TypeError: get_phone() takes 2 positional arguments but 3 were given\n\nTestCase\\test_get_phone.py:26: TypeError",
+    "steps" : [ {
+      "name" : "手机号查询接口",
+      "time" : {
+        "start" : 1630847812112,
+        "stop" : 1630847812112,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: get_phone() takes 2 positional arguments but 3 were given\n",
+      "statusTrace" : "  File \"C:\\Users\\weipeng\\Desktop\\Myproject\\PytestAutoRequest\\TestCase\\test_get_phone.py\", line 26, in test_phone\n    msg = Api_News_Service().get_phone(data['data']['phone'],data['data']['type'])\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "bd030b933d1bf716",
+      "name" : "log",
+      "source" : "bd030b933d1bf716.txt",
+      "type" : "text/plain",
+      "size" : 95
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "聚合接口"
+  }, {
+    "name" : "tag",
+    "value" : "process"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_get_phone"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Service_Info"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9PO3806"
+  }, {
+    "name" : "thread",
+    "value" : "12060-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_get_phone"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'detail': '手机号为空：错误提示', 'data': {'phone': '', 'type': ''}, 'resp': {'resultcode': '201', 'reason': 'The phone number can not be empty!', 'result': None, 'error_code': 201101}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c2e1ccadbe05c204",
+      "status" : "broken",
+      "statusDetails" : "TypeError: get_phone() takes 2 positional arguments but 3 were given",
+      "time" : {
+        "start" : 1630847759466,
+        "stop" : 1630847759466,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "86afeed5ae769040",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630763806989,
+        "stop" : 1630763807029,
+        "duration" : 40
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "process" ]
+  },
+  "source" : "b7f1f76174762ff1.json",
+  "parameterValues" : [ "{'detail': '手机号为空：错误提示', 'data': {'phone': '', 'type': ''}, 'resp': {'resultcode': '201', 'reason': 'The phone number can not be empty!', 'result': None, 'error_code': 201101}}" ]
+}

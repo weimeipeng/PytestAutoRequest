@@ -1,0 +1,170 @@
+{
+  "uid" : "3204b92d05a2a42",
+  "name" : "test_service_info[desc--expect1]",
+  "fullName" : "case.test_content_info.Test_Service_Info#test_service_info",
+  "historyId" : "b77399e37e1e9f338afd9c969fec8779",
+  "time" : {
+    "start" : 1630847759654,
+    "stop" : 1630847759700,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "host",
+    "time" : {
+      "start" : 1630847759029,
+      "stop" : 1630847759029,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1630847759029,
+      "stop" : 1630847759029,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1630847759013,
+      "stop" : 1630847759029,
+      "duration" : 16
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1630847758497,
+      "stop" : 1630847759013,
+      "duration" : 516
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取笑话大全接口---正常访问",
+      "time" : {
+        "start" : 1630847759654,
+        "stop" : 1630847759700,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "d9691a66a5ff8bcd",
+      "name" : "log",
+      "source" : "d9691a66a5ff8bcd.txt",
+      "type" : "text/plain",
+      "size" : 424
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "服务详情"
+  }, {
+    "name" : "tag",
+    "value" : "process"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_content_info"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Service_Info"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9PO3806"
+  }, {
+    "name" : "thread",
+    "value" : "4216-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_content_info"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect",
+    "value" : "{'reason': '必须为10位时间戳或时间范围错误', 'result': 'None', 'error_code': 209501}"
+  }, {
+    "name" : "sort",
+    "value" : "'desc'"
+  }, {
+    "name" : "time",
+    "value" : "''"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9b5e0e8c7e18271f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630763807244,
+        "stop" : 1630763807307,
+        "duration" : 63
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "process" ]
+  },
+  "source" : "3204b92d05a2a42.json",
+  "parameterValues" : [ "{'reason': '必须为10位时间戳或时间范围错误', 'result': 'None', 'error_code': 209501}", "'desc'", "''" ]
+}

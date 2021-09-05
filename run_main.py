@@ -1,5 +1,6 @@
 import os
 import pytest
+import shutil
 
 if __name__ == '__main__':
     pytest.main(['-m', 'process', '-s', '--alluredir', 'report/tmp'])  # -m运行mark标记文件

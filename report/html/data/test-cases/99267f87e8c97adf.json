@@ -1,0 +1,160 @@
+{
+  "uid" : "99267f87e8c97adf",
+  "name" : "test_phone[返回类型为空，默认json正确请求]",
+  "fullName" : "TestCase.test_get_phone.Test_Info#test_phone",
+  "historyId" : "4caa4a7458cf02dbc971c48bf25c7b3e",
+  "time" : {
+    "start" : 1630848003441,
+    "stop" : 1630848003441,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: get_phone() takes 2 positional arguments but 3 were given",
+  "statusTrace" : "self = <TestCase.test_get_phone.Test_Info object at 0x0000027CFF4BCF88>\ndata = {'data': {'phone': '13291870920', 'type': ''}, 'detail': '正确参数(默认) 返回json 数据', 'resp': {'error_code': 0, 'reason': 'Return Successd!', 'result': '杭州', 'resultcode': '200'}}\n\n    @pytest.mark.process\n    @pytest.mark.parametrize('data', testdata,\n                             ids=['手机号码归属地查询接口:正确请求','返回类型为空，默认json正确请求','手机号为空，异常校验'])\n    def test_phone(self, data):\n        self.log.info('%s{%s}' % ((sys._getframe().f_code.co_name, '------开始手机号码归属地查询接口测试-----')))\n        with allure.step('手机号查询接口'):\n>           msg = Api_News_Service().get_phone(data['data']['phone'],data['data']['type'])\nE           TypeError: get_phone() takes 2 positional arguments but 3 were given\n\nTestCase\\test_get_phone.py:26: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1630848003113,
+      "stop" : 1630848003113,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1630848003113,
+      "stop" : 1630848003113,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "host",
+    "time" : {
+      "start" : 1630848003113,
+      "stop" : 1630848003113,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1630848002847,
+      "stop" : 1630848003113,
+      "duration" : 266
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: get_phone() takes 2 positional arguments but 3 were given",
+    "statusTrace" : "self = <TestCase.test_get_phone.Test_Info object at 0x0000027CFF4BCF88>\ndata = {'data': {'phone': '13291870920', 'type': ''}, 'detail': '正确参数(默认) 返回json 数据', 'resp': {'error_code': 0, 'reason': 'Return Successd!', 'result': '杭州', 'resultcode': '200'}}\n\n    @pytest.mark.process\n    @pytest.mark.parametrize('data', testdata,\n                             ids=['手机号码归属地查询接口:正确请求','返回类型为空，默认json正确请求','手机号为空，异常校验'])\n    def test_phone(self, data):\n        self.log.info('%s{%s}' % ((sys._getframe().f_code.co_name, '------开始手机号码归属地查询接口测试-----')))\n        with allure.step('手机号查询接口'):\n>           msg = Api_News_Service().get_phone(data['data']['phone'],data['data']['type'])\nE           TypeError: get_phone() takes 2 positional arguments but 3 were given\n\nTestCase\\test_get_phone.py:26: TypeError",
+    "steps" : [ {
+      "name" : "手机号查询接口",
+      "time" : {
+        "start" : 1630848003441,
+        "stop" : 1630848003441,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: get_phone() takes 2 positional arguments but 3 were given\n",
+      "statusTrace" : "  File \"C:\\Users\\weipeng\\Desktop\\Myproject\\PytestAutoRequest\\TestCase\\test_get_phone.py\", line 26, in test_phone\n    msg = Api_News_Service().get_phone(data['data']['phone'],data['data']['type'])\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "7b10cf843567128e",
+      "name" : "log",
+      "source" : "7b10cf843567128e.txt",
+      "type" : "text/plain",
+      "size" : 95
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "聚合接口"
+  }, {
+    "name" : "tag",
+    "value" : "process"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_get_phone"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Info"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9PO3806"
+  }, {
+    "name" : "thread",
+    "value" : "9964-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_get_phone"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'detail': '正确参数(默认) 返回json 数据', 'data': {'phone': '13291870920', 'type': ''}, 'resp': {'resultcode': '200', 'reason': 'Return Successd!', 'result': '杭州', 'error_code': 0}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "process" ]
+  },
+  "source" : "99267f87e8c97adf.json",
+  "parameterValues" : [ "{'detail': '正确参数(默认) 返回json 数据', 'data': {'phone': '13291870920', 'type': ''}, 'resp': {'resultcode': '200', 'reason': 'Return Successd!', 'result': '杭州', 'error_code': 0}}" ]
+}

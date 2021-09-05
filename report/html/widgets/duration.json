@@ -1,100 +1,360 @@
 [ {
-  "uid" : "8a54d40041d01625",
+  "uid" : "dae6e8f017815916",
+  "name" : "test_phone[手机号为空，异常校验]",
+  "time" : {
+    "start" : 1630848151041,
+    "stop" : 1630848151072,
+    "duration" : 31
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "18bf4d24656475e8",
   "name" : "test_service_info[data1]",
   "time" : {
-    "start" : 1629991894436,
-    "stop" : 1629991894472,
-    "duration" : 36
+    "start" : 1630848283195,
+    "stop" : 1630848283195,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "14597fada0ee2d18",
+  "name" : "test_constellation_info[data2]",
+  "time" : {
+    "start" : 1630848282867,
+    "stop" : 1630848282898,
+    "duration" : 31
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "1c88e3f8ae0f07f2",
-  "name" : "test_service_info[data4]",
-  "time" : {
-    "start" : 1629991894801,
-    "stop" : 1629991894843,
-    "duration" : 42
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "32f29f9987c8a0e5",
+  "uid" : "3204b92d05a2a42",
   "name" : "test_service_info[desc--expect1]",
   "time" : {
-    "start" : 1629991894131,
-    "stop" : 1629991894194,
-    "duration" : 63
+    "start" : 1630847759654,
+    "stop" : 1630847759700,
+    "duration" : 46
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e0fc44da92fe5dd3",
+  "uid" : "1b52f9191e6217b6",
+  "name" : "test_phone[返回类型为空，默认json正确请求]",
+  "time" : {
+    "start" : 1630847812097,
+    "stop" : 1630847812097,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1e0dbbe492f18e5c",
+  "name" : "test_service_info[-1418816972-expect2]",
+  "time" : {
+    "start" : 1630847759716,
+    "stop" : 1630847759825,
+    "duration" : 109
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7b2b658fe7dd43b",
   "name" : "test_service_info[data0]",
   "time" : {
-    "start" : 1629991894370,
-    "stop" : 1629991894427,
-    "duration" : 57
+    "start" : 1630848283179,
+    "stop" : 1630848283179,
+    "duration" : 0
   },
-  "status" : "passed",
+  "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "2cda50868dd7f56e",
+  "uid" : "9c556c4507c3a5f6",
+  "name" : "test_phone[返回类型为空，默认json正确请求]",
+  "time" : {
+    "start" : 1630848150978,
+    "stop" : 1630848151025,
+    "duration" : 47
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e1d50c3e79a12a5e",
+  "name" : "test_service_info[data0]",
+  "time" : {
+    "start" : 1630848283242,
+    "stop" : 1630848283242,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ae4f6972343d6429",
   "name" : "test_service_info[data3]",
   "time" : {
-    "start" : 1629991894739,
-    "stop" : 1629991894787,
-    "duration" : 48
+    "start" : 1630847760044,
+    "stop" : 1630847760091,
+    "duration" : 47
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "79a3613dcabe490f",
-  "name" : "test_service_info[data5]",
+  "uid" : "8cf79cb01046e418",
+  "name" : "test_service_info[data1]",
   "time" : {
-    "start" : 1629991852790,
-    "stop" : 1629991852833,
-    "duration" : 43
+    "start" : 1630848283257,
+    "stop" : 1630848283257,
+    "duration" : 0
   },
-  "status" : "passed",
+  "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "172ca62c4efa1941",
-  "name" : "test_service_info[desc-1418816972-expect0]",
+  "uid" : "83a30d19c271c87f",
+  "name" : "test_constellation_info[星座运势查询接口]",
   "time" : {
-    "start" : 1629991893972,
-    "stop" : 1629991894095,
-    "duration" : 123
+    "start" : 1630763806278,
+    "stop" : 1630763806497,
+    "duration" : 219
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b4bda4ad9081cc7e",
+  "uid" : "8837a38de8052f3b",
   "name" : "test_service_info[data2]",
   "time" : {
-    "start" : 1629991894686,
-    "stop" : 1629991894722,
-    "duration" : 36
+    "start" : 1630848283257,
+    "stop" : 1630848283257,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "651c2aeb86864ae0",
+  "name" : "test_service_info[data4]",
+  "time" : {
+    "start" : 1630847760107,
+    "stop" : 1630847760154,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17c640ee1f06a3bf",
+  "name" : "test_phone[data1]",
+  "time" : {
+    "start" : 1630848283039,
+    "stop" : 1630848283117,
+    "duration" : 78
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed5e844b1320f6bc",
+  "name" : "test_service_info[data2]",
+  "time" : {
+    "start" : 1630848283195,
+    "stop" : 1630848283195,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "b480028e449a20e8",
+  "name" : "test_service_info[data3]",
+  "time" : {
+    "start" : 1630848283242,
+    "stop" : 1630848283242,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "9803000b963d453c",
+  "name" : "test_phone[手机号码归属地查询接口:正确请求]",
+  "time" : {
+    "start" : 1630847812081,
+    "stop" : 1630847812081,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b7f1f76174762ff1",
+  "name" : "test_phone[手机号为空，异常校验]",
+  "time" : {
+    "start" : 1630847812112,
+    "stop" : 1630847812112,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "22e87dc61a8d3b7",
+  "name" : "test_service_info[服务详情]",
+  "time" : {
+    "start" : 1630848283273,
+    "stop" : 1630848283273,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "25be3d61d93074f7",
+  "name" : "test_service_info[data4]",
+  "time" : {
+    "start" : 1630848283273,
+    "stop" : 1630848283273,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "7bda57032f71f837",
+  "name" : "test_service_info[data2]",
+  "time" : {
+    "start" : 1630847759982,
+    "stop" : 1630847760029,
+    "duration" : 47
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "cf65814bc0e9e1be",
-  "name" : "test_service_info[服务详情]",
+  "uid" : "a5e42847db9ac84c",
+  "name" : "test_service_info[data0]",
   "time" : {
-    "start" : 1629991894853,
-    "stop" : 1629991894957,
-    "duration" : 104
+    "start" : 1630847759825,
+    "stop" : 1630847759904,
+    "duration" : 79
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d5d2013b5c1ba5e0",
-  "name" : "test_service_info[-1418816972-expect2]",
+  "uid" : "d3b19ae5afa7ca42",
+  "name" : "test_phone[data2]",
   "time" : {
-    "start" : 1629991894226,
-    "stop" : 1629991894330,
-    "duration" : 104
+    "start" : 1630848283132,
+    "stop" : 1630848283179,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74ec4594c17ce648",
+  "name" : "test_service_info[data3]",
+  "time" : {
+    "start" : 1630848283273,
+    "stop" : 1630848283273,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f7227adbd5bf46e8",
+  "name" : "test_service_info[desc-1418816972-expect0]",
+  "time" : {
+    "start" : 1630847759529,
+    "stop" : 1630847759638,
+    "duration" : 109
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8038a4fd5d6af28f",
+  "name" : "test_constellation_info[data1]",
+  "time" : {
+    "start" : 1630848282695,
+    "stop" : 1630848282726,
+    "duration" : 31
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a89f0e07b65498cc",
+  "name" : "test_service_info[data4]",
+  "time" : {
+    "start" : 1630848283242,
+    "stop" : 1630848283242,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ee03ad8383390ed9",
+  "name" : "test_phone[手机号码归属地查询接口:正确请求]",
+  "time" : {
+    "start" : 1630848150853,
+    "stop" : 1630848150963,
+    "duration" : 110
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a8af5008acecefda",
+  "name" : "test_News_info",
+  "time" : {
+    "start" : 1630848282914,
+    "stop" : 1630848282914,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2fb74cff5d6282da",
+  "name" : "test_service_info[正常访问]",
+  "time" : {
+    "start" : 1630848282914,
+    "stop" : 1630848282914,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "74383a5fd9a60d80",
+  "name" : "test_service_info[排序参数：空]",
+  "time" : {
+    "start" : 1630848282914,
+    "stop" : 1630848282914,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "7c236b47392099c5",
+  "name" : "test_phone[data0]",
+  "time" : {
+    "start" : 1630848282929,
+    "stop" : 1630848283023,
+    "duration" : 94
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8380d5754f88caf5",
+  "name" : "test_service_info[data1]",
+  "time" : {
+    "start" : 1630847759904,
+    "stop" : 1630847759966,
+    "duration" : 62
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d2156390a79f7060",
+  "name" : "test_service_info[时间参数：空]",
+  "time" : {
+    "start" : 1630848282914,
+    "stop" : 1630848282914,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2fcf9ec5d0403bf2",
+  "name" : "test_constellation_info[data0]",
+  "time" : {
+    "start" : 1630848282632,
+    "stop" : 1630848282695,
+    "duration" : 63
   },
   "status" : "passed",
   "severity" : "normal"

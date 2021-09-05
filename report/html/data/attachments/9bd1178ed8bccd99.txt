@@ -1,0 +1,3 @@
+INFO     root:logger.py:38 test_constellation_info{------开始星座运势查询接口测试-----}
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://web.juhe.cn:8080 "GET /constellation/getAll?consName=&type=today&key=f7aec031a4fcbccdafa7906300d365f8 HTTP/1.1" 200 91
+INFO     root:logger.py:38 test_constellation_info:获取请求结果：{'error_code': 205801, 'reason': 'NAME ERROR!', 'result': [], 'resultcode': '201'}

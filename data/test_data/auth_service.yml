@@ -10,7 +10,16 @@ apply_service:
   - ['','',{'result_code': '0', 'result_message': '处理成功'}]
 weather: [{"reason":"查询成功!","error_code":0}]
 
+
 xiaohua: [['desc','1418816972',{'reason': 'Success', 'result':'content','error_code': 0}],   #有效测试数据
           ['desc','',{'reason': '必须为10位时间戳或时间范围错误', 'result': None, 'error_code': 209501}], #时间为空
           ['','1418816972',{'reason': 'Success', 'result':'content','error_code': 0}] #排序为空
           ]
+
+get_phone: [
+          ['13291870920','json',{'resultcode': '200', 'reason': 'Return Successd!', 'result': '杭州', 'error_code': 0}], #正确参数，设置 返回json 数据
+          ['13291870920','',{'resultcode': '200', 'reason': 'Return Successd!', 'result': '杭州', 'error_code': 0}],    #正确参数，默认 返回json 数据
+          ['','',{"resultcode":"201","reason":"The phone number can not be empty!","result":null,"error_code":201101}]           #手机号为空：错误提示
+          ]
+
+get_constellation: [{'date': 20210825, 'name': '天秤座','resultcode': '200', 'error_code': 0}]

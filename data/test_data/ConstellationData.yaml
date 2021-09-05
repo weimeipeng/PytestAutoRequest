@@ -1,0 +1,43 @@
+#星座查询接口的测试数据
+#
+#-
+#  url: /api/loginS
+#  method: post
+#get_phone: [
+#          ['13291870920','json',{'resultcode': '200', 'reason': 'Return Successd!', 'result': '杭州', 'error_code': 0}], #正确参数，设置 返回json 数据
+#          ['13291870920','',{'resultcode': '200', 'reason': 'Return Successd!', 'result': '杭州', 'error_code': 0}],    #正确参数，默认 返回json 数据
+#          ['','',{"resultcode":"201","reason":"The phone number can not be empty!","result":null,"error_code":201101}]           #手机号为空：错误提示
+#          {'date': 20210825, 'name': '天秤座','resultcode': '200', 'error_code': 0}
+
+- #测试用例1：测试数据
+  detail: 正确参数,返回json 数据
+  data:
+    consName: '水瓶座'
+    type: 'today'  #today,tomorrow,week,month,year
+  resp:
+    resultcode: '200'
+    reason: 'Return Successd!'
+    result: '水瓶座'
+    error_code: 0
+
+- #测试用例2：手机号为空：错误提示
+  detail: 异常测试：星座字段空
+  data:
+    consName: ''
+    type: 'today'  #today,tomorrow,week,month,year
+  resp:
+    resultcode: '201'
+    reason: 'Return Successd!'
+    result: 'NAME ERROR!'
+    error_code: 0
+
+- #测试用例3：手机号为空：错误提示
+  detail: 异常测试：type字段空
+  data:
+    consName: '水瓶座'
+    type: ''  #today,tomorrow,week,month,year
+  resp:
+    resultcode: '201'
+    reason: 'Return Successd!'
+    result: 'null'
+    error_code: 0

@@ -12,19 +12,15 @@ from common.http_requests import HttpRequests
 
 @pytest.fixture(scope="session")
 def get_token():
-
+    print("前置开始执行")
     '''前置操作获取token并传入headers'''
     Get_Token().get_token()
     if not HttpRequests().params.get("access_token", ""):#没有get到token，跳出用例
         pytest.skip("未获取token跳过用例")
     yield HttpRequests().req
+
     HttpRequests().req.close()
-    # 清理测试数据
-    if not os.path.exists('report/tmp'):
-        os.mkdir('report/tmp')
-    else:
-        shutil.rmtree('report/tmp')
-        os.mkdir('report/tmp')
+
 
 def pytest_addoption(parser):
     parser.addoption(
@@ -38,3 +34,9 @@ def host(request):
     #pytest --cmdhost 运行指定环境
     os.environ["host"] = request.config.getoption("--cmdhost")
     print("当前用例运行测试环境:%s" % os.environ["host"])
+    # # 清理测试数据
+    # if not os.path.exists('report/tmp'):
+    #     os.mkdir('report/tmp')
+    # else:
+    #     shutil.rmtree('report/tmp')
+    #     os.mkdir('report/tmp')

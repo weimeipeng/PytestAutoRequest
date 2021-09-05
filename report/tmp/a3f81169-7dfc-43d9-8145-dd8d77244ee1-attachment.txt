@@ -1,0 +1,3 @@
+INFO     root:logger.py:38 test_phone{------开始手机号码归属地查询接口测试-----}
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://apis.juhe.cn:80 "GET /mobile/get?phone=&dtype=json&key=6e9a421a23a510891542fcd6a2c167d7 HTTP/1.1" 200 None
+INFO     root:logger.py:38 test_phone:获取请求结果：{'resultcode': '201', 'reason': 'The phone number can not be empty!', 'result': None, 'error_code': 201101}

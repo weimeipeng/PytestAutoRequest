@@ -1,0 +1,158 @@
+{
+  "uid" : "75ac6b1341f29e6a",
+  "name" : "test_service_info[data1]",
+  "fullName" : "case.test_login.Test_Login#test_service_info",
+  "historyId" : "aba46edf232a53b8b982d3d580c525dc",
+  "time" : {
+    "start" : 1630763807683,
+    "stop" : 1630763807739,
+    "duration" : 56
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '用户名不存在' == '用户不名能为空'\n  - 用户不名能为空\n  + 用户名不存在",
+  "statusTrace" : "self = <case.test_login.Test_Login object at 0x00000288823004C8>\ndata = {'data': {'password': '123456', 'username': ''}, 'detail': '账号为空，密码正确', 'resp': {'code': 400, 'message': '用户不名能为空'}}\n\n    @pytest.mark.process\n    @pytest.mark.parametrize('data',testdata)\n    def test_service_info(self,data):\n    \n        username=data['data']['username']\n    \n        password=data['data']['password']\n        print(\"测试账号为：\" ,username,password)\n        self.log.info('%s{%s}' % ((sys._getframe().f_code.co_name,data['detail'])))\n        with allure.step(data['detail']):\n            msg = Login().login({\"username\":username,\"password\":password},mode=False)\n        self.log.info('%s:%s' %((sys._getframe().f_code.co_name,'请求结果：%s' % msg.json())))\n    \n        #断言\n        # assert msg.json()['detail'] == data['detail']\n        # assert msg.json()['data']['username'] == data['data']['username']\n        # assert msg.json()['data']['password'] == data['data']['password']\n        assert msg.json()['code'] == data['resp']['code']\n>       assert msg.json()['message'] == data['resp']['message']\nE       AssertionError: assert '用户名不存在' == '用户不名能为空'\nE         - 用户不名能为空\nE         + 用户名不存在\n\ncase\\test_login.py:31: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1630763806077,
+      "stop" : 1630763806077,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1630763805815,
+      "stop" : 1630763806077,
+      "duration" : 262
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "host",
+    "time" : {
+      "start" : 1630763806077,
+      "stop" : 1630763806275,
+      "duration" : 198
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1630763806077,
+      "stop" : 1630763806077,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '用户名不存在' == '用户不名能为空'\n  - 用户不名能为空\n  + 用户名不存在",
+    "statusTrace" : "self = <case.test_login.Test_Login object at 0x00000288823004C8>\ndata = {'data': {'password': '123456', 'username': ''}, 'detail': '账号为空，密码正确', 'resp': {'code': 400, 'message': '用户不名能为空'}}\n\n    @pytest.mark.process\n    @pytest.mark.parametrize('data',testdata)\n    def test_service_info(self,data):\n    \n        username=data['data']['username']\n    \n        password=data['data']['password']\n        print(\"测试账号为：\" ,username,password)\n        self.log.info('%s{%s}' % ((sys._getframe().f_code.co_name,data['detail'])))\n        with allure.step(data['detail']):\n            msg = Login().login({\"username\":username,\"password\":password},mode=False)\n        self.log.info('%s:%s' %((sys._getframe().f_code.co_name,'请求结果：%s' % msg.json())))\n    \n        #断言\n        # assert msg.json()['detail'] == data['detail']\n        # assert msg.json()['data']['username'] == data['data']['username']\n        # assert msg.json()['data']['password'] == data['data']['password']\n        assert msg.json()['code'] == data['resp']['code']\n>       assert msg.json()['message'] == data['resp']['message']\nE       AssertionError: assert '用户名不存在' == '用户不名能为空'\nE         - 用户不名能为空\nE         + 用户名不存在\n\ncase\\test_login.py:31: AssertionError",
+    "steps" : [ {
+      "name" : "账号为空，密码正确",
+      "time" : {
+        "start" : 1630763807684,
+        "stop" : 1630763807738,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "cd9731cd4f991e5c",
+      "name" : "log",
+      "source" : "cd9731cd4f991e5c.txt",
+      "type" : "text/plain",
+      "size" : 455
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "教师系统接口"
+  }, {
+    "name" : "tag",
+    "value" : "process"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Login"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9PO3806"
+  }, {
+    "name" : "thread",
+    "value" : "3484-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'detail': '账号为空，密码正确', 'data': {'username': '', 'password': '123456'}, 'resp': {'code': 400, 'message': '用户不名能为空'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "process" ]
+  },
+  "source" : "75ac6b1341f29e6a.json",
+  "parameterValues" : [ "{'detail': '账号为空，密码正确', 'data': {'username': '', 'password': '123456'}, 'resp': {'code': 400, 'message': '用户不名能为空'}}" ]
+}

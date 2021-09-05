@@ -1,0 +1,2 @@
+INFO     root:logger.py:38 test_News_info{------开始热门新闻查询接口接口测试-----}
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://v.juhe.cn:80 "GET /toutiao/index?page=3&key=e4e13b9352c189d2289d26a97c8ef23c HTTP/1.1" 200 None
