@@ -1,3 +1,0 @@
-INFO     root:logger.py:38 test_service_info{------开始测试获取笑话大全接口-----}
-DEBUG    urllib3.connectionpool:connectionpool.py:442 http://v.juhe.cn:80 "GET /joke/content/list.php?key=c9e2444ef7ce61627fad5a2a62427042&sort=desc&time= HTTP/1.1" 200 None
-INFO     root:logger.py:38 test_service_info:请求结果：{'reason': '必须为10位时间戳或时间范围错误', 'result': None, 'error_code': 209501}

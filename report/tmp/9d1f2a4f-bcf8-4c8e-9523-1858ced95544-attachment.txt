@@ -1,1 +1,0 @@
-INFO     root:logger.py:38 test_phone{------开始手机号码归属地查询接口测试-----}

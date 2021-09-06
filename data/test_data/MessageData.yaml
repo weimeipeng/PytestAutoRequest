@@ -1,0 +1,30 @@
+#登录接口的测试数据
+#
+#-
+#  url: /api/messages/1/4'
+#  method: get
+
+
+- #测试用例1：测试数据
+  detail: 正确token
+  data:
+    token: True
+  resp:
+    code: 200
+    message: '查询所有留言'
+
+- #测试用例2：测试数据
+  detail: 错误token
+  data:
+    token: False
+  resp:
+    code: '1041'
+    msg: '无效的TOKEN'
+
+- #测试用例3：测试数据
+  detail: 无token
+  data:
+    token: 'null'
+  resp:
+    code: '1040'
+    msg: 'TOKEN值为空'
