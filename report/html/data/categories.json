@@ -4,164 +4,36 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "AssertionError: assert '用户名不存在' == '用户不名能为空'\n  - 用户不名能为空\n  + 用户名不存在",
+      "name" : "AssertionError: assert 200 == 400",
       "children" : [ {
-        "name" : "test_service_info[data1]",
-        "uid" : "8380d5754f88caf5",
-        "parentUid" : "032b1239f8a23df94b5ac3846c47aa1e",
+        "name" : "test_push_message[data3]",
+        "uid" : "54dfa5a0ed918d86",
+        "parentUid" : "1632cfe8c4505dd3de980407c40b21ea",
         "status" : "failed",
         "time" : {
-          "start" : 1630847759904,
-          "stop" : 1630847759966,
-          "duration" : 62
+          "start" : 1631110288228,
+          "stop" : 1631110288322,
+          "duration" : 94
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'detail': '账号为空，密码正确', 'data': {'username': '', 'password': '123456'}, 'resp': {'code': 400, 'message': '用户不名能为空'}}" ]
-      } ],
-      "uid" : "032b1239f8a23df94b5ac3846c47aa1e"
-    }, {
-      "name" : "AssertionError: assert 400 == 4",
-      "children" : [ {
-        "name" : "test_service_info[data2]",
-        "uid" : "7bda57032f71f837",
-        "parentUid" : "27a368bba019ddd786a19b1bd93bd809",
+        "parameters" : [ "{'detail': '正确token和时间空', 'data': {'token': True, 'title': '留言的标题', 'content': '留言的内容', 'time': ''}, 'resp': {'code': 400, 'msg': '添加失败'}}" ]
+      }, {
+        "name" : "test_push_message[data4]",
+        "uid" : "1cebb9d2fd6fc760",
+        "parentUid" : "1632cfe8c4505dd3de980407c40b21ea",
         "status" : "failed",
         "time" : {
-          "start" : 1630847759982,
-          "stop" : 1630847760029,
-          "duration" : 47
+          "start" : 1631110288727,
+          "stop" : 1631110288840,
+          "duration" : 113
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'detail': '密码为空，账号正确', 'data': {'username': '20200015', 'password': ''}, 'resp': {'code': 4, 'message': '密码错误'}}" ]
+        "parameters" : [ "{'detail': '正确token和错误日期', 'data': {'token': True, 'title': '留言的标题', 'content': '留言的内容', 'time': '2023-09-07T06:24:22.516Z'}, 'resp': {'code': 400, 'msg': '添加失败'}}" ]
       } ],
-      "uid" : "27a368bba019ddd786a19b1bd93bd809"
-    }, {
-      "name" : "AssertionError: assert 205801 == 0",
-      "children" : [ {
-        "name" : "test_constellation_info[data1]",
-        "uid" : "8038a4fd5d6af28f",
-        "parentUid" : "b607ae5b3ba41e90d38ddbbd7c5e5481",
-        "status" : "failed",
-        "time" : {
-          "start" : 1630848282695,
-          "stop" : 1630848282726,
-          "duration" : 31
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'detail': '异常测试：星座字段空', 'data': {'consName': '', 'type': 'today'}, 'resp': {'resultcode': '201', 'reason': 'Return Successd!', 'result': 'NAME ERROR!', 'error_code': 0}}" ]
-      } ],
-      "uid" : "b607ae5b3ba41e90d38ddbbd7c5e5481"
-    }, {
-      "name" : "AssertionError: 关键字\"{'date': 20210905, 'name': '水瓶座', 'QFriend': '天蝎座', 'color': '银色', 'datetime': '2021年09月05日', 'health': '75', 'love': '80', 'work': '55', 'money': '65', 'number': 1, 'summary': '今天水瓶座在工作中会发生一些小失误，虽然不是什么大事，却会影响到你的心情，可以向伴侣倾诉，他们会给你最温暖和安心的拥抱。和人交往要注重交流，而不是只靠手机来打发时间，分享彼此最近的见闻也是一件有趣的事。', 'all': '75', 'resultcode': '200', 'error_code': 0}\"不存在源码中!\nassert 'null' in \"{'date': 20210905, 'name': '水瓶座', 'QFriend': '天蝎座', 'color': '银色', 'datetime': '2021年09月05日', 'health': '75', 'love':...，可以向伴侣倾诉，他们会给你最温暖和安心的拥抱。和人交往要注重交流，而不是只靠手机来打发时间，分享彼此最近的见闻也是一件有趣的事。', 'all': '75', 'resultcode': '200', 'error_code': 0}\"\n +  where \"{'date': 20210905, 'name': '水瓶座', 'QFriend': '天蝎座', 'color': '银色', 'datetime': '2021年09月05日', 'health': '75', 'love':...，可以向伴侣倾诉，他们会给你最温暖和安心的拥抱。和人交往要注重交流，而不是只靠手机来打发时间，分享彼此最近的见闻也是一件有趣的事。', 'all': '75', 'resultcode': '200', 'error_code': 0}\" = str({'QFriend': '天蝎座', 'all': '75', 'color': '银色', 'date': 20210905, ...})\n +    where {'QFriend': '天蝎座', 'all': '75', 'color': '银色', 'date': 20210905, ...} = <bound method Response.json of <Response [200]>>()\n +      where <bound method Response.json of <Response [200]>> = <Response [200]>.json",
-      "children" : [ {
-        "name" : "test_constellation_info[data2]",
-        "uid" : "14597fada0ee2d18",
-        "parentUid" : "296d5ca05f047fbb135b48cfa35c82ea",
-        "status" : "failed",
-        "time" : {
-          "start" : 1630848282867,
-          "stop" : 1630848282898,
-          "duration" : 31
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'detail': '异常测试：type字段空', 'data': {'consName': '水瓶座', 'type': ''}, 'resp': {'resultcode': '201', 'reason': 'Return Successd!', 'result': 'null', 'error_code': 0}}" ]
-      } ],
-      "uid" : "296d5ca05f047fbb135b48cfa35c82ea"
+      "uid" : "1632cfe8c4505dd3de980407c40b21ea"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "TypeError: get_phone() takes 2 positional arguments but 3 were given",
-      "children" : [ {
-        "name" : "test_phone[手机号码归属地查询接口:正确请求]",
-        "uid" : "9803000b963d453c",
-        "parentUid" : "a8de4610f7b359ebee2b73794af78484",
-        "status" : "broken",
-        "time" : {
-          "start" : 1630847812081,
-          "stop" : 1630847812081,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'detail': '正确参数,返回json 数据', 'data': {'phone': '13291870920', 'type': 'json'}, 'resp': {'resultcode': '200', 'reason': 'Return Successd!', 'result': '杭州', 'error_code': 0}}" ]
-      }, {
-        "name" : "test_phone[返回类型为空，默认json正确请求]",
-        "uid" : "1b52f9191e6217b6",
-        "parentUid" : "a8de4610f7b359ebee2b73794af78484",
-        "status" : "broken",
-        "time" : {
-          "start" : 1630847812097,
-          "stop" : 1630847812097,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'detail': '正确参数(默认) 返回json 数据', 'data': {'phone': '13291870920', 'type': ''}, 'resp': {'resultcode': '200', 'reason': 'Return Successd!', 'result': '杭州', 'error_code': 0}}" ]
-      }, {
-        "name" : "test_phone[手机号为空，异常校验]",
-        "uid" : "b7f1f76174762ff1",
-        "parentUid" : "a8de4610f7b359ebee2b73794af78484",
-        "status" : "broken",
-        "time" : {
-          "start" : 1630847812112,
-          "stop" : 1630847812112,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'detail': '手机号为空：错误提示', 'data': {'phone': '', 'type': ''}, 'resp': {'resultcode': '201', 'reason': 'The phone number can not be empty!', 'result': None, 'error_code': 201101}}" ]
-      } ],
-      "uid" : "a8de4610f7b359ebee2b73794af78484"
-    }, {
-      "name" : "KeyError: 'resultcode1'",
-      "children" : [ {
-        "name" : "test_phone[手机号码归属地查询接口:正确请求]",
-        "uid" : "ee03ad8383390ed9",
-        "parentUid" : "a6b5e643da2e8694a3d34cf93732d114",
-        "status" : "broken",
-        "time" : {
-          "start" : 1630848150853,
-          "stop" : 1630848150963,
-          "duration" : 110
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'detail': '正确参数,返回json 数据', 'data': {'phone': '13291870920', 'type': 'json'}, 'resp': {'resultcode': '200', 'reason': 'Return Successd!', 'result': '杭州', 'error_code': 0}}" ]
-      }, {
-        "name" : "test_phone[返回类型为空，默认json正确请求]",
-        "uid" : "9c556c4507c3a5f6",
-        "parentUid" : "a6b5e643da2e8694a3d34cf93732d114",
-        "status" : "broken",
-        "time" : {
-          "start" : 1630848150978,
-          "stop" : 1630848151025,
-          "duration" : 47
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'detail': '正确参数(默认) 返回json 数据', 'data': {'phone': '13291870920', 'type': ''}, 'resp': {'resultcode': '200', 'reason': 'Return Successd!', 'result': '杭州', 'error_code': 0}}" ]
-      }, {
-        "name" : "test_phone[手机号为空，异常校验]",
-        "uid" : "dae6e8f017815916",
-        "parentUid" : "a6b5e643da2e8694a3d34cf93732d114",
-        "status" : "broken",
-        "time" : {
-          "start" : 1630848151041,
-          "stop" : 1630848151072,
-          "duration" : 31
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'detail': '手机号为空：错误提示', 'data': {'phone': '', 'type': ''}, 'resp': {'resultcode': '201', 'reason': 'The phone number can not be empty!', 'result': None, 'error_code': 201101}}" ]
-      } ],
-      "uid" : "a6b5e643da2e8694a3d34cf93732d114"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }

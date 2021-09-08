@@ -8,7 +8,7 @@ from common.read_yaml import ReadYaml
 testdata = ReadYaml("auth_service.yml").get_yaml_data()  # 读取数据
 
 @pytest.mark.skipif(con='全部测试')
-@allure.feature('服务详情')
+@allure.feature('笑话大全接口')
 class Test_Service_Info(object):
     log = Log()
     @pytest.mark.process

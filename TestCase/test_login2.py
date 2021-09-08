@@ -20,7 +20,7 @@ def get_md5(psw):
 testdata = ReadYaml("testLoginData.yaml").get_yaml_data()  # 读取数据
 
 @pytest.mark.skipif()
-@allure.feature('教师系统接口')
+@allure.feature('教师系统登录2')
 class Test_Login(object):
     log = Log()
     @pytest.mark.process

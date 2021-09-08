@@ -1,4 +1,0 @@
-INFO     root:logger.py:38 test_service_info{账号为空，密码正确}
-DEBUG    urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): 121.41.14.39:9097
-DEBUG    urllib3.connectionpool:connectionpool.py:442 http://121.41.14.39:9097 "POST /api/loginS HTTP/1.1" 200 None
-INFO     root:logger.py:38 test_service_info:请求结果：{'flag': '松勤教育', 'code': 400, 'message': '用户名不存在', 'data': None, 'token': None}

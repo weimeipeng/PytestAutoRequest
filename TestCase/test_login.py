@@ -8,7 +8,7 @@ from common.read_yaml import ReadYaml
 testdata = ReadYaml("testLoginData.yaml").get_yaml_data()  # 读取数据
 
 @pytest.mark.skipif(con='全部测试')
-@allure.feature('教师系统接口')
+@allure.feature('教师系统登录')
 class Test_Login(object):
     log = Log()
     @pytest.mark.process

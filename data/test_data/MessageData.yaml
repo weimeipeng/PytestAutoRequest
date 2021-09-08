@@ -1,30 +1,120 @@
-#登录接口的测试数据
-#
-#-
+#留言接口
+
+get_message:
 #  url: /api/messages/1/4'
 #  method: get
+  - #测试用例1：测试数据
+    detail: 正确token
+    data:
+      token: True
+    resp:
+      code: 200
+      msg: '查询所有留言'
 
+  - #测试用例2：测试数据
+    detail: 错误token
+    data:
+      token: False
+    resp:
+      code: '1041'
+      msg: '无效的TOKEN'
 
-- #测试用例1：测试数据
-  detail: 正确token
-  data:
-    token: True
-  resp:
-    code: 200
-    message: '查询所有留言'
+  - #测试用例3：测试数据
+    detail: 无token
+    data:
+      token: 'null'
+    resp:
+      code: '1040'
+      msg: 'TOKEN值为空'
 
-- #测试用例2：测试数据
-  detail: 错误token
-  data:
-    token: False
-  resp:
-    code: '1041'
-    msg: '无效的TOKEN'
+push_message:
+#  url: /api/messages'
+#  method: post
+#{"title":"title_test","content":"这是一个留言","time":"2021-09-07T06:24:22.516Z"}
+  - #测试用例1：测试数据
+    detail: 正确token和参数
+    data:
+      token: True
+      title: '留言的标题'
+      content: '留言的内容'
+      time: '2021-09-07T06:24:22.516Z'
+    resp:
+      code: 200
+      msg: '添加成功'
 
-- #测试用例3：测试数据
-  detail: 无token
-  data:
-    token: 'null'
-  resp:
-    code: '1040'
-    msg: 'TOKEN值为空'
+#必填项校验      
+  - #测试用例2：title空
+    detail: 正确token和title空
+    data:
+      token: True
+      title: ''
+      content: '留言的内容'
+      time: '2021-09-07T06:24:22.516Z'
+    resp:
+      code: 400
+      msg: '添加失败'
+  - #测试用例3：content空
+    detail: 正确token和content空
+    data:
+      token: True
+      title: '留言的标题'
+      content: ''
+      time: '2021-09-07T06:24:22.516Z'
+    resp:
+      code: 400
+      msg: '添加失败'
+  - #测试用例4：time空
+    detail: 正确token和时间空
+    data:
+      token: True
+      title: '留言的标题'
+      content: '留言的内容'
+      time: ''
+    resp:
+      code: 400
+      msg: '添加失败'
+
+#错误入参      
+  - #测试用例5：错误日期
+    detail: 正确token和错误日期
+    data:
+      token: True
+      title: '留言的标题'
+      content: '留言的内容'
+      time: '2023-09-07T06:24:22.516Z'
+    resp:
+      code: 400
+      msg: '添加失败'     
+
+  - #测试用例6：测试数据
+    detail: 正确token和title过长
+    data:
+      token: True
+      title: '留言的标题留言的标题留言的标题留言的标题留言的标题留言的标题留言的标题留言的标题留言的标题留言的标题留言的标题留言的标题留言的标题留言的标题留言的标题留言的标题留言的标题留言的标题留言的标题留言的标题留言的标题留言的标题留言的标题留言的标题留言的标题留言的标题留言的标题留言的标题留言的标题'
+      content: '留言的内容'
+      time: ''
+    resp:
+      code: 400
+      msg: '添加失败'    
+      
+  - #测试用例7：测试数据
+    detail: 错误token
+    data:
+      token: False
+      title: '留言的标题'
+      content: '留言的内容'
+      time: '2021-09-07T06:24:22.516Z'
+    resp:
+      code: '1041'
+      msg: '无效的TOKEN'
+
+  - #测试用例8：测试数据
+    detail: 无token
+    data:
+      token: 'null'
+      title: '留言的标题'
+      content: '留言的内容'
+      time: '2021-09-07T06:24:22.516Z'
+    resp:
+      code: '1040'
+      msg: 'TOKEN值为空'

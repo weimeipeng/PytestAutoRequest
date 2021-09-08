@@ -1,37 +1,114 @@
 {
-  "total" : 3,
+  "total" : 10,
   "items" : [ {
-    "uid" : "20a2567168753d6465693996b4d94e30",
-    "name" : "聚合接口",
-    "statistic" : {
-      "failed" : 2,
-      "broken" : 6,
-      "skipped" : 1,
-      "passed" : 5,
-      "unknown" : 0,
-      "total" : 14
-    }
-  }, {
-    "uid" : "7889f7aed7956d7f1f530e9987971804",
-    "name" : "教师系统接口",
+    "uid" : "0f4803a0dc9fccf75edd1665d9693133",
+    "name" : "教师系统获取留言",
     "statistic" : {
       "failed" : 2,
       "broken" : 0,
-      "skipped" : 10,
-      "passed" : 3,
+      "skipped" : 0,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 15
+      "total" : 11
     }
   }, {
-    "uid" : "0e44372f753e56f2028403d2d7756216",
-    "name" : "服务详情",
+    "uid" : "67070f3fc220850d5bd7d12fcee48ce5",
+    "name" : "教师系统登录",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 4,
-      "passed" : 3,
+      "skipped" : 5,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 7
+      "total" : 5
+    }
+  }, {
+    "uid" : "9dffa7c2dd9391a0a5b5bd85001698cf",
+    "name" : "教师系统登录2",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 5,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "5cd20f7a4e50bfd114625ec18ed5dd97",
+    "name" : "星座运势查询",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 3,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "b6f798912d6cd5254c1de87a239dc1a5",
+    "name" : "笑话大全接口",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 3,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "e126e0470ce0d982983300b02af59d21",
+    "name" : "教师系统我的练习",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 3,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "89921aff369c2c1f6d4b7870a190778b",
+    "name" : "手机号查询",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 3,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "f93918c73aceba340ec4ba234e020e66",
+    "name" : "教师系统我的成绩",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 3,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "b3c3acf1492170833147a54e09bfaa86",
+    "name" : "获取热门新闻",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "14f9edcc5bdc9ce1d9dc29aee2526984",
+    "name" : "天气查询",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
     }
   } ]
 }

@@ -1,3 +1,0 @@
-INFO     root:logger.py:38 test_constellation_info{------开始星座运势查询接口测试-----}
-DEBUG    urllib3.connectionpool:connectionpool.py:442 http://web.juhe.cn:8080 "GET /constellation/getAll?consName=%E6%B0%B4%E7%93%B6%E5%BA%A7&type=today&key=f7aec031a4fcbccdafa7906300d365f8 HTTP/1.1" 200 529
-INFO     root:logger.py:38 test_constellation_info:获取请求结果：{'date': 20210905, 'name': '水瓶座', 'QFriend': '天蝎座', 'color': '银色', 'datetime': '2021年09月05日', 'health': '75', 'love': '80', 'work': '55', 'money': '65', 'number': 1, 'summary': '今天水瓶座在工作中会发生一些小失误，虽然不是什么大事，却会影响到你的心情，可以向伴侣倾诉，他们会给你最温暖和安心的拥抱。和人交往要注重交流，而不是只靠手机来打发时间，分享彼此最近的见闻也是一件有趣的事。', 'all': '75', 'resultcode': '200', 'error_code': 0}

@@ -13,7 +13,7 @@ from api.api_News import Api_News_Service
 testdata = ReadYaml("auth_service.yml").get_yaml_data()  # 读取数据
 
 @pytest.mark.skipif(con='全部测试')
-@allure.feature('聚合接口')
+@allure.feature('获取热门新闻')
 class Test_Service_Info(object):
     log = Log()
     @pytest.mark.process

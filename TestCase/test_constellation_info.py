@@ -12,7 +12,8 @@ from api.api_News import Api_News_Service
 
 testdata = ReadYaml("ConstellationData.yaml").get_yaml_data()  # 读取数据
 
-@allure.feature('聚合接口')
+@pytest.mark.skipif()
+@allure.feature('星座运势查询')
 class Test_Service_Info(object):
     log = Log()
 
